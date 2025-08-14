@@ -19,8 +19,6 @@
 - [Credits & License](#credits--license)
 - [Acknowledgments](#acknowledgments)
 
----
-
 ## Introduction
 Tremulous EDGE - Development Story </br>
 In 2011, I decided to create a modified version of the open-source game [Tremulous](https://github.com/darklegion/tremulous). Previously, I had enjoyed playing an already modded version of this online game, but unfortunately, that particular mod was no longer being developed.
@@ -29,8 +27,6 @@ The focus was to create an extensive sci-fi framework around the two teams while
 Aliens, on the other hand, are primitive. They don't build with metal or stone - everything has an organic origin and grows naturally. Alien structures are immediately recognizable as such. The aliens' strength lies primarily in their speed of construction and movement. When played by skilled players, aliens are exceptionally powerful.
 Their structures support them by enabling faster healing while dramatically altering the environment to create a camouflage effect that can be disorienting for humans. Everything hinted at in the base game was maximized with EDGE.
 The name EDGE was chosen because the mod and its community were very small, existing only on the fringe - at the EDGE of the gaming landscape.
-
----
 
 ## Installation
 This project is built for **Linux Ubuntu 64-bit**. A precompiled version is available for **Windows**.
@@ -89,8 +85,6 @@ To run the server:
 ##### 2. Start
 Launch the client by running start_edge-client.bat, which is located in the tremulous folder.
 
----
-
 ### Manual Build _(Ubuntu 64-bit)_
 If you want to compile later without reinstalling:
 ```bash
@@ -98,7 +92,6 @@ If you want to compile later without reinstalling:
 ```
 
 Files will be stored in edge-mod/build/*
----
 
 ## Features:
 
@@ -120,8 +113,6 @@ Files will be stored in edge-mod/build/*
 - **Vote sound** - Audio notification for active voting sessions
 - **Console commands** - New commands added with theme-integrated styling
 - **Code improvements** - Additional modifications, fixes, refactoring, cleanup and optimizations
-
----
 
 ## Human Buildings
 <img src="docs/images/human_build_header.jpg" alt="Human-Header" width="1800">
@@ -205,8 +196,6 @@ Files will be stored in edge-mod/build/*
 | Hummel | 4 | 2 | 200 | 10 (prickles) | 40/40/3 | Fast airborne unit, has claw- air-pounce attack and can shoot small projectiles <img src="docs/images/ac_hummel.jpg" alt="Hummel" width="300"><img src="docs/images/ac_hummel_action.gif?raw=true" alt="Hummel-Action" width="300"> |
 | Tyrant | 2 | 3 | 400 | 3 | 60(claw)</br>/45(trample)</br>/100(crush)</br>/80(breath) | Has the ability to shoot 3 fire breaths and has +100hp <img src="docs/images/ac_tyrant_breath_action.gif?raw=true" alt="Tyrant-Action" width="300"> |
 
----
-
 ## Maps
 During the active EDGE period, I created numerous maps for the project. Below is a complete list with names and links to the sources and binaries:
 
@@ -220,8 +209,6 @@ During the active EDGE period, I created numerous maps for the project. Below is
 - [SM64](https://github.com/Masmblr/map-sm64_src)
 - [Satan](https://github.com/Masmblr/map-satan_src)
 - [Zelda World](https://github.com/Masmblr/map-zeldaworld_src)
-
----
 
 ## Credits & License
 - © 1999 - 2005 id Software
