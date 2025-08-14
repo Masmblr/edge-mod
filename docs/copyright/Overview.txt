@@ -1,0 +1,1888 @@
+EDGE - Tremulous Mod License Informations
+==============================
+
+This project builds upon the open-source release of Tremulous and Quake III Arena. 
+It consists of both original and modified code, as well as various media assets. 
+This document outlines license and authorship information for each part.
+Information provided to the best of our knowledge. Errors and omissions excepted.
+
+CODE
+====
+
+- Based on Quake III Arena Source Code (id Software)
+  © 1999 - 2005 id Software - License: GNU GPL 2.0 (see docs/copyright/LICENSE_gnu-gpl_2.0.txt)
+
+- Tremulous © 2006 - 2009 Darklegion Development
+
+	Tremulous is licensed in two broadly separate sections: the code and the media. 
+	The code is licensed under the GNU GENERAL PUBLIC LICENSE. This license is
+	contained in full in the file named GPL. Please be aware of the exceptions to
+	this license as listed below.
+	The media is licensed under the CREATIVE COMMONS ATTRIBUTION-SHAREALIKE 2.5
+	LICENSE. Please read http://creativecommons.org/licenses/by-sa/2.5/ to learn
+	more about this license or see docs/copyright/LICENSE_cc-by-sa_2.5.txt.
+
+	Code License Exceptions:
+	The following files contain sections of code that are not licensed under the
+	GPL, but are nevertheless GPL compatible. The license text for these licenses
+	is contained within the files as listed.
+		src/qcommon/unzip.c                                         zlib license
+		src/game/bg_lib.c                                            BSD license
+		src/client/snd_adpcm.c            Stichting Mathematisch Centrum license
+		src/jpeg-6/*                                                JPEG license
+
+- Advanced Dretch & BioKit features:
+  © 2009 TremX - License: GNU GPL 2.0 (see docs/copyright/LICENSE_gnu-gpl_2.0.txt)
+  
+- Team Balance Code features:
+  © 2013 mtiusane - License: GNU GPL 2.0 (see docs/copyright/LICENSE_gnu-gpl_2.0txt)
+
+- EDGE-Modification features:
+  © 2012 - 2025 Masmblr - License: GNU GPL 2.0 (see docs/copyright/LICENSE_gnu-gpl_2.0.txt)
+
+---
+
+ASSETS
+======
+
+This is a complete list of all media assets included in this project, along with their respective authors and license information. 
+Derivative files are marked with * and retain the original license unless otherwise noted.
+
+
+## Assets by Dark Legion Development © 2006 - 2009
+License: CC BY-SA 2.5 (see docs/copyright/LICENSE_cc-by-sa_2.5.txt)
+----
+Makefile
+default.cfg
+misc/entities.def
+misc/tremulous.ico
+armour/bsuit.armour
+armour/helmet.armour
+armour/larmour.armour
+configs/buildables/acid_tube.cfg
+configs/buildables/arm.cfg
+configs/buildables/barricade.cfg
+configs/buildables/booster.cfg
+configs/buildables/dcc.cfg
+configs/buildables/eggpod.cfg
+configs/buildables/hive.cfg
+configs/buildables/hovel.cfg
+configs/buildables/medistat.cfg
+configs/buildables/mgturret.cfg
+configs/buildables/overmind.cfg
+configs/buildables/reactor.cfg
+configs/buildables/repeater.cfg
+configs/buildables/telenode.cfg
+configs/buildables/tesla.cfg
+configs/buildables/trapper.cfg
+configs/classes/builder.cfg
+configs/classes/builderupg.cfg
+configs/classes/human_base.cfg
+configs/classes/human_bsuit.cfg
+configs/classes/level0.cfg
+configs/classes/level0upg.cfg
+configs/classes/level1.cfg
+configs/classes/level1upg.cfg
+configs/classes/level2.cfg
+configs/classes/level2upg.cfg
+configs/classes/level3.cfg
+configs/classes/level3upg.cfg
+configs/classes/level4.cfg
+configs/classes/spectator.cfg
+configs/buildables/mgturret2.cfg   * modified by Masmblr 
+emoticons/acidtube_1x1.tga
+emoticons/advbasilisk_1x1.tga
+emoticons/advdragoon_1x1.tga
+emoticons/advgranger_1x1.tga
+emoticons/advmarauder_1x1.tga
+emoticons/armoury_1x1.tga
+emoticons/barricade_1x1.tga
+emoticons/basilisk_1x1.tga
+emoticons/blaster_1x1.tga
+emoticons/booster_1x1.tga
+emoticons/bsuit_1x1.tga
+emoticons/ckit_2x1.tga
+emoticons/chaingun_2x1.tga
+emoticons/dev_1x1.tga
+emoticons/defcomp_1x1.tga
+emoticons/dragoon_1x1.tga
+emoticons/dretch_1x1.tga
+emoticons/egg_1x1.tga
+emoticons/featured_1x1.tga
+emoticons/flamer_2x1.tga
+emoticons/grenade_1x1.tga
+emoticons/hive_1x1.tga
+emoticons/granger_1x1.tga
+emoticons/hovel_1x1.tga
+emoticons/human_1x1.tga
+emoticons/lasgun_2x1.tga
+emoticons/lcannon_2x1.tga
+emoticons/marauder_1x1.tga
+emoticons/mdriver_2x1.tga
+emoticons/medstat_1x1.tga
+emoticons/official_1x1.tga
+emoticons/overmind_1x1.tga
+emoticons/painsaw_2x1.tga
+emoticons/reactor_1x1.tga
+emoticons/repeater_1x1.tga
+emoticons/prifle_2x1.tga
+emoticons/rifle_2x1.tga
+emoticons/shotgun_2x1.tga
+emoticons/trapper_1x1.tga
+emoticons/telenode_1x1.tga
+emoticons/tent_1x1.tga
+emoticons/tesla_1x1.tga
+emoticons/turret_1x1.tga
+emoticons/tyrant_1x1.tga
+fonts/fontImage_0_12.tga
+fonts/fontImage_0_16.tga
+fonts/fontImage_0_20.tga
+fonts/fontImage_0_26.tga
+fonts/fontImage_0_34.tga
+fonts/fontImage_12.dat
+fonts/fontImage_16.dat
+fonts/fontImage_1_26.tga
+fonts/fontImage_1_34.tga
+fonts/fontImage_20.dat
+fonts/fontImage_26.dat
+fonts/fontImage_34.dat
+gfx/null.tga
+gfx/2d/bigchars.tga
+gfx/2d/crosshair-alien.tga
+gfx/2d/crosshair-chaingun.tga
+gfx/2d/crosshair-flamer1.tga
+gfx/2d/crosshair-flamer2.tga
+gfx/2d/crosshair-lcannon.tga
+gfx/2d/crosshair-lgun.tga
+gfx/2d/crosshair-mdriver.tga
+gfx/2d/crosshair-prifle.tga
+gfx/2d/crosshair-psaw.tga
+gfx/2d/crosshair-rifle.tga
+gfx/2d/net.jpg
+gfx/2d/outline.tga
+gfx/2d/stalk.tga
+gfx/2d/teamoverlay.tga
+gfx/2d/numbers/eight_32b.tga
+gfx/2d/numbers/five_32b.tga
+gfx/2d/numbers/four_32b.tga
+gfx/2d/numbers/minus_32b.tga
+gfx/2d/numbers/nine_32b.tga
+gfx/2d/numbers/one_32b.tga
+gfx/2d/numbers/seven_32b.tga
+gfx/2d/numbers/six_32b.tga
+gfx/2d/numbers/three_32b.tga
+gfx/2d/numbers/two_32b.tga
+gfx/2d/numbers/zero_32b.tga
+gfx/blaster/orange_particle.jpg
+gfx/blaster/orange_particle.tga
+gfx/colors/black.jpg
+gfx/damage/blood.tga
+gfx/damage/fullscreen_painblend.tga
+gfx/flame/flame00.tga
+gfx/flame/flame01.tga
+gfx/flame/flame02.tga
+gfx/flame/flame03.tga
+gfx/flame/flame04.tga
+gfx/flame/flame05.tga
+gfx/flame/flame06.tga
+gfx/flame/flame07.tga
+gfx/flame/flame08.tga
+gfx/flame/flame09.tga
+gfx/flame/flame10.tga
+gfx/flame/flame11.tga
+gfx/flame/flame12.tga
+gfx/flame/flame13.tga
+gfx/flame/flame14.tga
+gfx/flame/flame15.tga
+gfx/flame/flame16.tga
+gfx/flame/flame17.tga
+gfx/flame/flame18.tga
+gfx/flame/flame19.tga
+gfx/flame/flame20.tga
+gfx/flame/flame21.tga
+gfx/flame/flame22.tga
+gfx/flame/flame23.tga
+gfx/flame/flame24.tga
+gfx/flamer/primarycharge_1.jpg
+gfx/flamer/primarycharge_10.jpg
+gfx/flamer/primarycharge_11.jpg
+gfx/flamer/primarycharge_2.jpg
+gfx/flamer/primarycharge_3.jpg
+gfx/flamer/primarycharge_4.jpg
+gfx/flamer/primarycharge_5.jpg
+gfx/flamer/primarycharge_6.jpg
+gfx/flamer/primarycharge_7.jpg
+gfx/flamer/primarycharge_8.jpg
+gfx/flamer/primarycharge_9.jpg
+gfx/fonts/fontImage_0_12.tga
+gfx/fonts/fontImage_0_16.tga
+gfx/fonts/fontImage_0_20.tga
+gfx/fonts/fontImage_0_26.tga
+gfx/fonts/fontImage_0_34.tga
+gfx/fonts/fontImage_12.dat
+gfx/fonts/fontImage_16.dat
+gfx/fonts/fontImage_1_26.tga
+gfx/fonts/fontImage_1_34.tga
+gfx/fonts/fontImage_20.dat
+gfx/fonts/fontImage_26.dat
+gfx/fonts/fontImage_34.dat
+gfx/grenade/flare_01.jpg
+gfx/lasgun/purple_particle.jpg
+gfx/lcannon/primary_1.jpg
+gfx/lcannon/primary_2.jpg
+gfx/lcannon/primary_3.jpg
+gfx/lcannon/primary_4.jpg
+gfx/level3upg/barb_splash.tga
+gfx/marks/blood_mrk.tga
+gfx/marks/bullet_mrk.jpg
+gfx/marks/burn_mrk.jpg
+gfx/marks/plasma_mrk.tga
+gfx/marks/shadow.tga
+gfx/marks/splash.jpg
+gfx/mdriver/green_particle.jpg
+gfx/mdriver/green_particle.tga
+gfx/misc/redbuild.tga
+gfx/prifle/red_blob.tga
+gfx/prifle/red_streak.tga
+gfx/psaw/blue_particle.jpg
+gfx/rifle/verysmallrock.tga
+gfx/sprites/bubble.jpg
+gfx/sprites/green_acid.tga
+gfx/sprites/green_acid2.tga
+gfx/sprites/poisoncloud.tga
+gfx/sprites/spark.tga
+icons/icona_builder.tga
+icons/icona_lev0.tga
+icons/icona_lev1.tga
+icons/icona_lev2.tga
+icons/icona_lev3.tga
+icons/icona_lev4.tga
+icons/icona_upgrade.tga
+icons/iconu_atoxin.tga
+icons/iconu_battpack.tga
+icons/iconu_bsuit.tga
+icons/iconu_helmet.tga
+icons/iconu_jetpack.tga
+icons/iconu_larmour.tga
+icons/iconw_alien.tga
+icons/iconw_blaster.tga
+icons/iconw_chaingun.tga
+icons/iconw_construct.tga
+icons/iconw_driver.tga
+icons/iconw_flamer.tga
+icons/iconw_lasgun.tga
+icons/iconw_lucifer.tga
+icons/iconw_mine.tga
+icons/iconw_nade.tga
+icons/iconw_pulse.tga
+icons/iconw_rifle.tga
+icons/iconw_saw.tga
+icons/iconw_sgun.tga
+models/ammo/tesla/tesla_bolt.jpg
+models/buildables/acid_tube/acid_tube.jpg
+models/buildables/acid_tube/acid_tube.md3
+models/buildables/acid_tube/acid_tube_inside.jpg
+models/buildables/acid_tube/animation.cfg
+models/buildables/arm/animation.cfg
+models/buildables/arm/arm.md3
+models/buildables/arm/arm_body.jpg
+models/buildables/arm/arm_panel1.jpg
+models/buildables/arm/arm_panel2.jpg
+models/buildables/arm/arm_panel3.jpg
+models/buildables/arm/arm_parts.jpg
+models/buildables/barrel/animation.cfg
+models/buildables/barricade/alien_spike.jpg
+models/buildables/barricade/animation.cfg
+models/buildables/barricade/barricade.md3
+models/buildables/barricade/pod_strands.tga
+models/buildables/barricade/ref2.tga
+models/buildables/booster/animation.cfg
+models/buildables/booster/booster.md3
+models/buildables/booster/booster_head.jpg
+models/buildables/booster/booster_sac.jpg
+models/buildables/booster/poison.jpg
+models/buildables/booster/ref_map.jpg
+models/buildables/dcc/animation.cfg
+models/buildables/dcc/comp_display.tga
+models/buildables/dcc/comp_front.jpg
+models/buildables/dcc/comp_grad.jpg
+models/buildables/dcc/comp_key.jpg
+models/buildables/dcc/comp_parts.jpg
+models/buildables/dcc/comp_pipes.jpg
+models/buildables/dcc/comp_top.jpg
+models/buildables/dcc/dcc.md3
+models/buildables/eggpod/animation.cfg
+models/buildables/eggpod/eggpod.md3
+models/buildables/eggpod/pod_body.jpg
+models/buildables/eggpod/pod_strands.tga
+models/buildables/eggpod/pod_tendrils.jpg
+models/buildables/eggpod/pod_tip.tga
+models/buildables/hive/animation.cfg
+models/buildables/hive/hive.jpg
+models/buildables/hive/hive.md3
+models/buildables/hive/hive_strands.tga
+models/buildables/medistat/animation.cfg
+models/buildables/medistat/medistat.md3
+models/buildables/medistat/medi_base.jpg
+models/buildables/medistat/medi_cone.jpg
+models/buildables/medistat/medi_cone.tga
+models/buildables/medistat/red_cross.tga
+models/buildables/mgturret/animation.cfg
+models/buildables/mgturret/ref_map.jpg
+models/buildables/mgturret/turret_barrel.jpg
+models/buildables/mgturret/turret_barrel.md3
+models/buildables/mgturret/turret_base.jpg
+models/buildables/mgturret/turret_base.md3
+models/buildables/mgturret/turret_coil.jpg
+models/buildables/mgturret/turret_coil.tga
+models/buildables/mgturret/turret_shiny.jpg
+models/buildables/mgturret/turret_top.jpg
+models/buildables/mgturret/turret_top.md3
+models/buildables/mgturret/t_flash.jpg
+models/buildables/overmind/animation.cfg
+models/buildables/overmind/blackeye.tga
+models/buildables/overmind/cowl2.tga
+models/buildables/overmind/overhead.jpg
+models/buildables/overmind/overmind.jpg
+models/buildables/overmind/overmind.md3
+models/buildables/overmind/over_body.jpg
+models/buildables/overmind/over_spike.jpg
+models/buildables/overmind/pattern.tga
+models/buildables/overmind/ref.tga
+models/buildables/overmind/ref2.tga
+models/buildables/overmind/ref3.tga
+models/buildables/reactor/animation.cfg
+models/buildables/reactor/energy.jpg
+models/buildables/reactor/reactor.md3
+models/buildables/reactor/reactor_body.jpg
+models/buildables/reactor/reactor_bolt.jpg
+models/buildables/reactor/reactor_bolt1.jpg
+models/buildables/reactor/reactor_bolt2.jpg
+models/buildables/reactor/reactor_bolt3.jpg
+models/buildables/reactor/reactor_control.jpg
+models/buildables/reactor/reactor_cyl.jpg
+models/buildables/reactor/reactor_display.jpg
+models/buildables/reactor/reactor_exhaust.jpg
+models/buildables/reactor/reactor_glow.jpg
+models/buildables/reactor/reactor_main.jpg
+models/buildables/reactor/reactor_meter.tga
+models/buildables/reactor/reactor_parts.jpg
+models/buildables/reactor/reactor_smoke_1.jpg
+models/buildables/reactor/reactor_smoke_2.jpg
+models/buildables/reactor/reactor_smoke_3.jpg
+models/buildables/reactor/reactor_streak.jpg
+models/buildables/reactor/reactor_top.jpg
+models/buildables/repeater/animation.cfg
+models/buildables/repeater/energy.jpg
+models/buildables/repeater/repeater.md3
+models/buildables/repeater/repeator_body.jpg
+models/buildables/repeater/repeator_panel.jpg
+models/buildables/telenode/animation.cfg
+models/buildables/telenode/energy.jpg
+models/buildables/telenode/energy.tga
+models/buildables/telenode/line.tga
+models/buildables/telenode/lines2.jpg
+models/buildables/telenode/lines2.tga
+models/buildables/telenode/rep_cyl.jpg
+models/buildables/telenode/sparkles.tga
+models/buildables/telenode/telenode.md3
+models/buildables/telenode/telenode_parts.jpg
+models/buildables/telenode/telenode_parts.tga
+models/buildables/telenode/telenode_top.jpg
+models/buildables/telenode/telenode_top.tga
+models/buildables/tesla/animation.cfg
+models/buildables/tesla/tesla.md3
+models/buildables/tesla/tesla_ball.jpg
+models/buildables/tesla/tesla_grill.jpg
+models/buildables/tesla/tesla_main.jpg
+models/buildables/tesla/tesla_spark.jpg
+models/buildables/trapper/animation.cfg
+models/buildables/trapper/trapper.md3
+models/buildables/trapper/trapper_body.jpg
+models/buildables/trapper/trapper_gills.tga
+models/buildables/trapper/trapper_tent.jpg
+models/fx/alien_gibs/a_gib1.md3
+models/fx/alien_gibs/a_gib2.md3
+models/fx/alien_gibs/a_gib3.md3
+models/fx/alien_gibs/a_gib4.md3
+models/fx/alien_gibs/gib.jpg
+models/fx/metal_gibs/hot_gibs.jpg
+models/fx/metal_gibs/metal_gibs.jpg
+models/fx/metal_gibs/m_gib1.md3
+models/fx/metal_gibs/m_gib2.md3
+models/fx/metal_gibs/m_gib3.md3
+models/fx/metal_gibs/m_gib4.md3
+models/fx/metal_gibs/m_gib5.md3
+models/fx/metal_gibs/m_gib6.md3
+models/fx/metal_gibs/m_gib7.md3
+models/fx/metal_gibs/m_gib8.md3
+models/players/builder/animation.cfg
+models/players/builder/builder.jpg
+models/players/builder/icon_advanced.tga
+models/players/builder/icon_default.tga
+models/players/builder/locdamage.cfg
+models/players/builder/nonseg.md3
+models/players/builder/nonseg_advanced.skin
+models/players/builder/nonseg_default.skin
+models/players/human_base/animation.cfg
+models/players/human_base/armour.tga
+models/players/human_base/base.tga
+models/players/human_base/battpack.jpg
+models/players/human_base/battpack.md3
+models/players/human_base/head.md3
+models/players/human_base/head_default.skin
+models/players/human_base/head_light.skin
+models/players/human_base/h_base.tga
+models/players/human_base/h_helmet.tga
+models/players/human_base/icon_default.tga
+models/players/human_base/jetpack.jpg
+models/players/human_base/jetpack.md3
+models/players/human_base/jetpack_flash.jpg
+models/players/human_base/jetpack_flash.md3
+models/players/human_base/light.tga
+models/players/human_base/locdamage.cfg
+models/players/human_base/lower.md3
+models/players/human_base/lower_default.skin
+models/players/human_base/lower_light.skin
+models/players/human_base/shoulderpads.tga
+models/players/human_base/upper.md3
+models/players/human_base/upper_default.skin
+models/players/human_base/upper_light.skin
+models/players/human_bsuit/animation.cfg
+models/players/human_bsuit/head.md3
+models/players/human_bsuit/head_default.skin
+models/players/human_bsuit/human_bsuit.jpg
+models/players/human_bsuit/locdamage.cfg
+models/players/human_bsuit/lower.md3
+models/players/human_bsuit/lower_default.skin
+models/players/human_bsuit/upper.md3
+models/players/human_bsuit/upper_default.skin
+models/players/level0/adv.jpg
+models/players/level0/animation.cfg
+models/players/level0/icon_default.tga
+models/players/level0/level0.jpg
+models/players/level0/locdamage.cfg
+models/players/level0/nonseg.md3
+models/players/level0/nonseg_adv.skin
+models/players/level0/nonseg_default.skin
+models/players/level1/animation.cfg
+models/players/level1/icon_default.tga
+models/players/level1/level1.jpg
+models/players/level1/level1upg.jpg
+models/players/level1/locdamage.cfg
+models/players/level1/nonseg.md3
+models/players/level1/nonseg_default.skin
+models/players/level1/nonseg_upgrade.skin
+models/players/level2/adv.tga
+models/players/level2/animation.cfg
+models/players/level2/default.tga
+models/players/level2/electric.jpg
+models/players/level2/icon_default.tga
+models/players/level2/locdamage.cfg
+models/players/level2/lvl2_fx.tga
+models/players/level2/nonseg.md3
+models/players/level2/nonseg_adv.skin
+models/players/level2/nonseg_default.skin
+models/players/level2/null.tga
+models/players/level3/animation.cfg
+models/players/level3/icon_default.tga
+models/players/level3/level3.tga
+models/players/level3/level3adv.tga
+models/players/level3/locdamage.cfg
+models/players/level3/nonseg.md3
+models/players/level3/nonseg_adv.skin
+models/players/level3/nonseg_default.skin
+models/players/level4/animation.cfg
+models/players/level4/icon_default.tga
+models/players/level4/level4.jpg
+models/players/level4/locdamage.cfg
+models/players/level4/nonseg.md3
+models/players/level4/nonseg_default.skin
+models/weapons/abuild/weapon.cfg
+models/weapons/abuildupg/flash0.wav
+models/weapons/abuildupg/impactflesh0.wav
+models/weapons/abuildupg/weapon.cfg
+models/weapons/blaster/blaster.jpg
+models/weapons/blaster/blaster.md3
+models/weapons/blaster/blaster_flash.md3
+models/weapons/blaster/blaster_hand.md3
+models/weapons/blaster/flash.jpg
+models/weapons/blaster/flash0.wav
+models/weapons/blaster/weapon.cfg
+models/weapons/chaingun/barrels.jpg
+models/weapons/chaingun/chaingun.jpg
+models/weapons/chaingun/chaingun.md3
+models/weapons/chaingun/chaingun_barrel.md3
+models/weapons/chaingun/chaingun_flash.md3
+models/weapons/chaingun/chaingun_hand.md3
+models/weapons/chaingun/flash.jpg
+models/weapons/chaingun/flash0.wav
+models/weapons/chaingun/flash1.wav
+models/weapons/chaingun/flash2.wav
+models/weapons/chaingun/flash3.wav
+models/weapons/chaingun/impact0.wav
+models/weapons/chaingun/weapon.cfg
+models/weapons/ckit/ckit.jpg
+models/weapons/ckit/ckit.md3
+models/weapons/ckit/ckit_hand.md3
+models/weapons/ckit/lines2.jpg
+models/weapons/ckit/rep_cyl.jpg
+models/weapons/ckit/screen.jpg
+models/weapons/ckit/scroll.jpg
+models/weapons/ckit/weapon.cfg
+models/players/level5/animation.cfg	* modified by Masmblr
+models/players/level5/icon_default.tga   * modified by Masmblr 
+models/players/level5/level5.jpg   * modified by Masmblr 
+models/players/level5/locdamage.cfg   * modified by Masmblr 
+models/weapons/flamer/weapon.cfg   * modified by Masmblr 
+models/weapons/flamer/fireloop.wav
+models/weapons/flamer/flamer.jpg
+models/weapons/flamer/flamer.md3
+models/weapons/flamer/flamer.tga
+models/weapons/flamer/flamer_flash.md3
+models/weapons/flamer/flamer_hand.md3
+models/weapons/flamer/gas.jpg
+models/weapons/flamer/idle.wav
+models/weapons/flamer/pilot.jpg
+models/weapons/grenade/energy.jpg
+models/weapons/grenade/grenade.jpg
+models/weapons/grenade/grenade.md3
+models/weapons/grenade/impact0.wav
+models/weapons/grenade/weapon.cfg
+models/weapons/hive/missile.wav
+models/weapons/hive/sprite1.tga
+models/weapons/hive/sprite2.tga
+models/weapons/hive/weapon.cfg
+models/weapons/lcannon/flash.jpg
+models/weapons/lcannon/flash0.wav
+models/weapons/lcannon/idle.wav
+models/weapons/lcannon/impact0.wav
+models/weapons/lcannon/lcannon.jpg
+models/weapons/lcannon/lcannon.md3
+models/weapons/lcannon/lcannon_flash.md3
+models/weapons/lcannon/lcannon_hand.md3
+models/weapons/lcannon/missile.wav
+models/weapons/lcannon/missle.wav
+models/weapons/lcannon/warning.wav
+models/weapons/lcannon/warning2.wav
+models/weapons/lcannon/weapon.cfg
+models/weapons/level0/flash0.wav
+models/weapons/level0/weapon.cfg
+models/weapons/level0upg/weapon.cfg
+models/weapons/level1/flash0.wav
+models/weapons/level1/impactflesh0.wav
+models/weapons/level1/weapon.cfg   * modified by Masmblr 
+models/weapons/level1upg/gas.wav
+models/weapons/level1upg/weapon.cfg
+models/weapons/level5/pounce.wav
+models/weapons/level5/flash0.wav
+models/weapons/level5/impactflesh0.wav
+models/weapons/lgun/flash.jpg
+models/weapons/lgun/flash0.wav
+models/weapons/lgun/lgun.jpg
+models/weapons/lgun/lgun.md3
+models/weapons/lgun/lgun_flash.md3
+models/weapons/lgun/lgun_hand.md3
+models/weapons/lgun/weapon.cfg
+models/weapons/lockblob/missle.jpg
+models/weapons/lockblob/missle.md3
+models/weapons/lockblob/weapon.cfg
+models/weapons/mdriver/fireloop.wav
+models/weapons/mdriver/flash.jpg
+models/weapons/mdriver/flash0.wav
+models/weapons/mdriver/glow.jpg
+models/weapons/mdriver/mdriver.jpg
+models/weapons/mdriver/mdriver.md3
+models/weapons/mdriver/mdriver.tga
+models/weapons/mdriver/mdriver_flash.md3
+models/weapons/mdriver/mdriver_hand.md3
+models/weapons/mdriver/weapon.cfg   * modified by Masmblr 
+models/weapons/mgturret/weapon.cfg
+models/weapons/mgturret2/weapon.cfg   * modified by Masmblr 
+models/weapons/psaw/chain.jpg
+models/weapons/psaw/crosshair-psaw.tga
+models/weapons/psaw/firing.wav
+models/weapons/psaw/flash.jpg
+models/weapons/psaw/idle.wav
+models/weapons/psaw/impact0blade.wav
+models/weapons/psaw/psaw.jpg
+models/weapons/psaw/psaw.md3   * modified by Masmblr (blade attack)
+models/weapons/psaw/psawmetal.md3
+models/weapons/psaw/psaw_flash.md3
+models/weapons/psaw/psaw_hand.md3
+models/weapons/psaw/weapon.cfg   * modified by Masmblr 
+models/weapons/rifle/flash.jpg
+models/weapons/rifle/flash0.wav
+models/weapons/rifle/flash2nd.wav
+models/weapons/rifle/ricochet0.wav
+models/weapons/rifle/ricochet1.wav
+models/weapons/rifle/ricochet2.wav
+models/weapons/rifle/ricochet3.wav
+models/weapons/rifle/rifle.jpg
+models/weapons/rifle/rifle.md3
+models/weapons/rifle/rifle_flash.md3
+models/weapons/rifle/rifle_hand.md3
+models/weapons/rifle/weapon.cfg
+models/weapons/shells/rifle-shell.jpg
+models/weapons/shells/rifle-shell.md3
+models/weapons/shells/shotgun-shell.jpg
+models/weapons/shells/shotgun-shell.md3
+models/weapons/shotgun/flash.jpg
+models/weapons/shotgun/flash0.wav
+models/weapons/shotgun/shotgun.jpg
+models/weapons/shotgun/shotgun.md3
+models/weapons/shotgun/shotgun_flash.md3
+models/weapons/shotgun/shotgun_hand.md3
+models/weapons/shotgun/weapon.cfg
+models/weapons/smoke/smoke.md3   * modified by Masmblr 
+models/weapons/teslagen/weapon.cfg
+overrides/buildables/acid_tube.cfg
+overrides/buildables/arm.cfg
+overrides/buildables/barricade.cfg
+overrides/buildables/booster.cfg
+overrides/buildables/dcc.cfg
+overrides/buildables/eggpod.cfg
+overrides/buildables/hive.cfg
+overrides/buildables/hovel.cfg
+overrides/buildables/medistat.cfg
+overrides/buildables/mgturret.cfg
+overrides/buildables/mgturret2.cfg   * modified by Masmblr 
+overrides/buildables/overmind.cfg
+overrides/buildables/reactor.cfg
+overrides/buildables/repeater.cfg
+overrides/buildables/telenode.cfg
+overrides/buildables/tesla.cfg
+overrides/buildables/trapper.cfg
+overrides/classes/builder.cfg
+overrides/classes/builderupg.cfg
+overrides/classes/human_base.cfg
+overrides/classes/human_bsuit.cfg
+overrides/classes/level0.cfg
+overrides/classes/level1.cfg
+overrides/classes/level1upg.cfg
+overrides/classes/level2.cfg
+overrides/classes/level2upg.cfg
+overrides/classes/level3.cfg
+overrides/classes/level3upg.cfg
+overrides/classes/level4.cfg
+models/players/level5/nonseg.md3   * modified by Masmblr (Hummel)
+models/players/level5/nonseg_default.skin   * modified by Masmblr (Hummel)
+scripts/ab_acidtube.particle
+scripts/ab_acidtube.shader
+scripts/ab_booster.shader
+scripts/ab_egg.shader
+scripts/ab_hive.particle
+scripts/ab_hive.shader
+scripts/ab_overmind.shader
+scripts/alien_models.shader
+scripts/aw_aliens.shader   * modified by Masmblr 
+scripts/aw_level1_upg.particle
+scripts/aw_level1_upg.shader
+scripts/aw_level2.shader
+scripts/aw_level2_upg.trail
+scripts/aw_level3_upg.particle
+scripts/aw_level4.particle   * modified by Masmblr 
+scripts/custinfoparms.txt
+scripts/general_alien_buildables.particle   * modified by Masmblr 
+scripts/general_alien_player.particle   * modified by Masmblr 
+scripts/general_human_buildables.particle   * modified by Masmblr 
+scripts/general_human_player.particle   * modified by Masmblr 
+scripts/hb_dcc.shader
+scripts/hb_medi.shader
+scripts/hb_mgturret.shader
+scripts/hb_reactor.shader
+scripts/hb_telenode.shader
+scripts/hb_tesla.shader
+scripts/hb_tesla.trail
+scripts/human_models.shader   * modified by Masmblr 
+scripts/hu_jetpack.particle
+scripts/hu_jetpack.shader
+scripts/hw_blaster.particle
+scripts/hw_blaster.shader
+scripts/hw_chaingun.particle
+scripts/hw_conkit.shader
+scripts/hw_flamer.particle   * modified by Masmblr 
+scripts/hw_flamer.shader   * modified by Masmblr 
+scripts/hw_flamer.trail   * modified by Masmblr 
+scripts/hw_grenade.shader   * modified by Masmblr 
+scripts/hw_humans.shader   * modified by Masmblr 
+scripts/hw_lasgun.particle
+scripts/hw_lasgun.shader
+scripts/hw_lcannon.particle
+scripts/hw_lcannon.shader
+scripts/hw_massdriver.particle   * modified by Masmblr 
+scripts/hw_massdriver.shader   * modified by Masmblr 
+scripts/hw_mdriver.shader   * modified by Masmblr 
+scripts/hw_mdriver.trail   * modified by Masmblr 
+scripts/hu_explosive_grenade.particle   * modified by Masmblr 
+scripts/hw_prifle.particle
+scripts/hw_prifle.shader
+scripts/hw_prifle.trail
+scripts/hw_psaw.particle   * modified by Masmblr 
+scripts/hw_psaw.shader   * modified by Masmblr 
+scripts/hw_rifle.particle
+scripts/hw_rifle.shader
+scripts/hw_rifle.trail
+scripts/hw_shotgun.particle
+scripts/system_core.particle   * modified by Masmblr 
+scripts/system_crosshairs.shader   * modified by Masmblr 
+scripts/system_effects.shader   * modified by Masmblr 
+scripts/system_emoticons.shader   * modified by Masmblr 
+scripts/system_marks.shader   * modified by Masmblr 
+scripts/system_muzzle.shader   * modified by Masmblr 
+scripts/system_sprites.shader   * modified by Masmblr 
+scripts/system_ui.shader   * modified by Masmblr 
+sound/null.wav
+sound/ambient/30-60HzHum.wav
+sound/ambient/drone1.wav
+sound/ambient/drone2.wav
+sound/ambient/electricspark.wav
+sound/ambient/fan.wav
+sound/ambient/quickpulse.wav
+sound/ambient/slowpulse1.wav
+sound/ambient/slowpulse2.wav
+sound/ambient/steam.wav
+sound/ambient/water1.wav
+sound/ambient/water_drip_fast.wav
+sound/ambient/water_drip_med.wav
+sound/ambient/water_drip_slow.wav
+sound/ambient/water_rush.wav
+sound/ambient/wind1.wav
+sound/ambient/wind2.wav
+sound/announcements/overmindattack.wav
+sound/announcements/overminddying.wav
+sound/announcements/overmindevolved.wav
+sound/announcements/overmindspawns.wav
+sound/announcements/reinforcement.wav
+sound/buildables/acid_tube/attack1.wav
+sound/buildables/acid_tube/construct1.wav
+sound/buildables/acid_tube/pain1.wav
+sound/buildables/acid_tube/pain2.wav
+sound/buildables/acid_tube/sound.cfg
+sound/buildables/alien/attack1.wav
+sound/buildables/alien/attack2.wav
+sound/buildables/alien/construct1.wav
+sound/buildables/alien/construct2.wav
+sound/buildables/alien/damage.wav
+sound/buildables/alien/destroy1.wav
+sound/buildables/alien/destroy2.wav
+sound/buildables/alien/destroyed.wav
+sound/buildables/alien/explosion.wav
+sound/buildables/alien/idle1.wav
+sound/buildables/alien/idle2.wav
+sound/buildables/alien/idle3.wav
+sound/buildables/alien/pain1.wav
+sound/buildables/alien/pain2.wav
+sound/buildables/alien/prebuild.wav
+sound/buildables/alien/spawn1.wav
+sound/buildables/alien/spawn2.wav
+sound/buildables/arm/sound.cfg
+sound/buildables/barrel/pain1.wav
+sound/buildables/barricade/construct1.wav
+sound/buildables/barricade/destroyed.wav
+sound/buildables/barricade/pain1.wav
+sound/buildables/barricade/pain2.wav
+sound/buildables/barricade/sound.cfg
+sound/buildables/booster/pain1.wav
+sound/buildables/booster/sound.cfg
+sound/buildables/dcc/idle1.wav
+sound/buildables/dcc/sound.cfg
+sound/buildables/hive/pain1.wav
+sound/buildables/hive/pain2.wav
+sound/buildables/hive/sound.cfg
+sound/buildables/human/attack1.wav
+sound/buildables/human/attack2.wav
+sound/buildables/human/construct1.wav
+sound/buildables/human/construct2.wav
+sound/buildables/human/damage.wav
+sound/buildables/human/damage0.wav
+sound/buildables/human/damage1.wav
+sound/buildables/human/damage2.wav
+sound/buildables/human/damage3.wav
+sound/buildables/human/destroy1.wav
+sound/buildables/human/destroy2.wav
+sound/buildables/human/destroyed.wav
+sound/buildables/human/explosion.wav
+sound/buildables/human/fragmentbounce.wav
+sound/buildables/human/idle1.wav
+sound/buildables/human/idle2.wav
+sound/buildables/human/idle3.wav
+sound/buildables/human/pain1.wav
+sound/buildables/human/pain2.wav
+sound/buildables/human/prebuild.wav
+sound/buildables/human/repair.wav
+sound/buildables/human/repaired.wav
+sound/buildables/human/spawn1.wav
+sound/buildables/human/spawn2.wav
+sound/buildables/cocoon/pain1.wav
+sound/buildables/container_medium/pain1.wav
+sound/buildables/barrier_point/pain1.wav
+sound/buildables/barrier_corner/pain1.wav
+sound/buildables/barrier_line/pain1.wav
+sound/buildables/fence_rod/pain1.wav
+sound/buildables/container_large/pain1.wav
+sound/buildables/container_small/pain1.wav
+sound/buildables/cover/pain1.wav
+sound/buildables/cover_stump/pain1.wav
+sound/buildables/eggpod/pain1.wav
+sound/buildables/eggpod/pain2.wav
+sound/buildables/eggpod/sound.cfg
+sound/buildables/hovel/attack1.wav
+sound/buildables/hovel/attack2.wav
+sound/buildables/hovel/pain1.wav
+sound/buildables/hovel/pain2.wav
+sound/buildables/hovel/sound.cfg
+sound/buildables/fence/pain1.wav
+sound/buildables/muscle/pain1.wav
+sound/buildables/net/pain1.wav
+sound/buildables/net_spike/pain1.wav
+sound/buildables/organic_bulb/pain1.wav
+sound/buildables/overmind/pain1.wav
+sound/buildables/infestation_blister/pain1.wav
+sound/buildables/infestation_slime/pain1.wav
+sound/buildables/infestation_thicket/pain1.wav
+sound/buildables/ladder/pain1.wav
+sound/buildables/light/pain1.wav
+sound/buildables/mgturret/pain1.wav
+sound/buildables/panzer_large/pain1.wav
+sound/buildables/panzer_medium/pain1.wav
+sound/buildables/plate_large/pain1.wav
+sound/buildables/plate_medium/pain1.wav
+sound/buildables/plate_small/pain1.wav
+sound/buildables/pod_stump/pain1.wav
+sound/buildables/pod/pain1.wav
+sound/buildables/reflector/pain1.wav
+sound/buildables/shield/pain1.wav
+sound/buildables/shield/pain2.wav
+sound/buildables/teflon_foil/pain1.wav
+sound/buildables/spiteful_abcess/pain1.wav
+sound/buildables/tendon_large/pain1.wav
+sound/buildables/tendon_small/pain1.wav
+sound/buildables/trapper/pain1.wav
+sound/buildables/trapper/pain2.wav
+sound/buildables/medistat/attack1.wav
+sound/buildables/medistat/idle1.wav
+sound/buildables/medistat/sound.cfg
+sound/buildables/mgturret/attack1.wav
+sound/buildables/mgturret/firetemplate.wav
+sound/buildables/mgturret/idle1.wav
+sound/buildables/mgturret/sound.cfg
+sound/buildables/mgturret/spinup.wav
+sound/buildables/mgturret2/idle1.wav
+sound/buildables/mgturret2/sound.cfg
+sound/buildables/mgturret2/spinup.wav
+sound/buildables/muscle/attack1.wav
+sound/buildables/overmind/construct1.wav
+sound/buildables/overmind/idle1.wav
+sound/buildables/overmind/pain2.wav
+sound/buildables/overmind/sound.cfg
+sound/buildables/reactor/attack1.wav
+sound/buildables/reactor/idle1.wav
+sound/buildables/reactor/sound.cfg
+sound/buildables/repeater/idle1.wav
+sound/buildables/repeater/sound.cfg
+sound/buildables/repeater/use.wav
+sound/buildables/telenode/construct1.wav
+sound/buildables/telenode/sound.cfg
+sound/buildables/tesla/idle1.wav
+sound/buildables/tesla/sound.cfg
+sound/buildables/tesla/tesla_fire.wav
+sound/buildables/trapper/attack1.wav
+sound/buildables/trapper/sound.cfg
+sound/feedback/hit.wav
+sound/misc/alien_talk.wav
+sound/misc/disconnect.wav
+sound/misc/electro.wav
+sound/misc/fry.wav
+sound/misc/hard_bounce1.wav
+sound/misc/hard_bounce2.wav
+sound/misc/human_talk.wav
+sound/misc/menu1.wav
+sound/misc/menu2.wav
+sound/misc/menu3.wav
+sound/misc/menu4.wav
+sound/misc/organic_bounce.wav
+sound/misc/talk.wav
+sound/movers/doors/dr1_end.wav
+sound/movers/doors/dr1_strt.wav
+sound/movers/switches/button1.wav
+sound/player/alienevolve.wav
+sound/player/gurp1.wav
+sound/player/gurp2.wav
+sound/player/land1.wav
+sound/player/watr_in.wav
+sound/player/watr_out.wav
+sound/player/watr_un.wav
+sound/player/builder/death1.wav
+sound/player/builder/death2.wav
+sound/player/builder/death3.wav
+sound/player/builder/jump1.wav
+sound/player/builder/pain100_1.wav
+sound/player/builder/pain25_1.wav
+sound/player/builder/pain50_1.wav
+sound/player/builder/pain75_1.wav
+sound/player/builder/taunt.wav
+sound/player/footsteps/clank1.wav
+sound/player/footsteps/clank2.wav
+sound/player/footsteps/clank3.wav
+sound/player/footsteps/clank4.wav
+sound/player/footsteps/flesh1.wav
+sound/player/footsteps/flesh2.wav
+sound/player/footsteps/flesh3.wav
+sound/player/footsteps/flesh4.wav
+sound/player/footsteps/splash1.wav
+sound/player/footsteps/splash2.wav
+sound/player/footsteps/splash3.wav
+sound/player/footsteps/splash4.wav
+sound/player/footsteps/step1.wav
+sound/player/footsteps/step2.wav
+sound/player/footsteps/step3.wav
+sound/player/footsteps/step4.wav
+sound/player/human_base/clank1.wav
+sound/player/human_base/clank2.wav
+sound/player/human_base/clank3.wav
+sound/player/human_base/clank4.wav
+sound/player/human_base/death1.wav
+sound/player/human_base/death2.wav
+sound/player/human_base/death3.wav
+sound/player/human_base/fall1.wav
+sound/player/human_base/jump1.wav
+sound/player/human_base/pain100_1.wav
+sound/player/human_base/pain25_1.wav
+sound/player/human_base/pain50_1.wav
+sound/player/human_base/pain75_1.wav
+sound/player/human_base/step1.wav
+sound/player/human_base/step2.wav
+sound/player/human_base/step3.wav
+sound/player/human_base/step4.wav
+sound/player/human_base/taunt.wav
+sound/player/human_bsuit/clank1.wav
+sound/player/human_bsuit/clank2.wav
+sound/player/human_bsuit/clank3.wav
+sound/player/human_bsuit/clank4.wav
+sound/player/human_bsuit/death1.wav
+sound/player/human_bsuit/death2.wav
+sound/player/human_bsuit/death3.wav
+sound/player/human_bsuit/fall1.wav
+sound/player/human_bsuit/jump1.wav
+sound/player/human_bsuit/pain100_1.wav
+sound/player/human_bsuit/pain25_1.wav
+sound/player/human_bsuit/pain50_1.wav
+sound/player/human_bsuit/pain75_1.wav
+sound/player/human_bsuit/step1.wav
+sound/player/human_bsuit/step2.wav
+sound/player/human_bsuit/step3.wav
+sound/player/human_bsuit/step4.wav
+sound/player/human_bsuit/taunt.wav
+sound/player/level0/death1.wav
+sound/player/level0/death2.wav
+sound/player/level0/death3.wav
+sound/player/level0/drown.wav
+sound/player/level0/gasp.wav
+sound/player/level0/jump1.wav
+sound/player/level0/pain100_1.wav
+sound/player/level0/pain25_1.wav
+sound/player/level0/pain50_1.wav
+sound/player/level0/pain75_1.wav
+sound/player/level0/taunt.wav
+sound/player/level0upg/death1.wav
+sound/player/level0upg/death2.wav
+sound/player/level0upg/death3.wav
+sound/player/level0upg/drown.wav
+sound/player/level0upg/gasp.wav
+sound/player/level0upg/jump1.wav
+sound/player/level0upg/pain100_1.wav
+sound/player/level0upg/pain25_1.wav
+sound/player/level0upg/pain50_1.wav
+sound/player/level0upg/pain75_1.wav
+sound/player/level0upg/taunt.wav
+sound/player/level1/death1.wav
+sound/player/level1/death2.wav
+sound/player/level1/death3.wav
+sound/player/level1/grab.wav
+sound/player/level1/jump1.wav
+sound/player/level1/pain100_1.wav
+sound/player/level1/pain25_1.wav
+sound/player/level1/pain50_1.wav
+sound/player/level1/pain75_1.wav
+sound/player/level1/taunt.wav
+sound/player/level2/death1.wav
+sound/player/level2/death2.wav
+sound/player/level2/death3.wav
+sound/player/level2/jump1.wav
+sound/player/level2/pain100_1.wav
+sound/player/level2/pain25_1.wav
+sound/player/level2/pain50_1.wav
+sound/player/level2/pain75_1.wav
+sound/player/level2/taunt.wav
+sound/player/level3/death1.wav
+sound/player/level3/death2.wav
+sound/player/level3/death3.wav
+sound/player/level3/jump1.wav
+sound/player/level3/pain100_1.wav
+sound/player/level3/pain25_1.wav
+sound/player/level3/pain50_1.wav
+sound/player/level3/pain75_1.wav
+sound/player/level3/taunt.wav
+sound/player/level4/charge_prepare.wav
+sound/player/level4/charge_start.wav
+sound/player/level4/death1.wav
+sound/player/level4/death2.wav
+sound/player/level4/death3.wav
+sound/player/level4/jump1.wav
+sound/player/level4/pain100_1.wav
+sound/player/level4/pain25_1.wav
+sound/player/level4/pain50_1.wav
+sound/player/level4/pain75_1.wav
+sound/player/level4/taunt.wav
+sound/upgrades/jetpack/hi.wav
+sound/upgrades/jetpack/idle.wav
+sound/upgrades/jetpack/low.wav
+sound/upgrades/medkit/medkit.wav
+sound/weapons/change.wav
+sound/weapons/click.wav
+sound/weapons/tracer.wav
+sound/world/electro.wav
+sound/player/level5/jump1.wav
+textures/common-trem/noalienbuild.tga
+textures/common-trem/nobuild.tga
+textures/common-trem/nohumanbuild.tga
+ui/connect.menu   * modified by Masmblr 
+ui/createfavorite.menu   * modified by Masmblr 
+ui/createserver.menu   * modified by Masmblr 
+ui/download.menu   * modified by Masmblr 
+ui/drop.menu   * modified by Masmblr 
+ui/error.menu   * modified by Masmblr 
+ui/findplayer.menu   * modified by Masmblr 
+ui/help.txt   * modified by Masmblr 
+ui/hud.txt   * modified by Masmblr 
+ui/infopanes.def   * modified by Masmblr 
+ui/ingame.menu   * modified by Masmblr 
+ui/ingame.txt   * modified by Masmblr 
+ui/ingame_about.menu   * modified by Masmblr 
+ui/ingame_callteamvote.menu   * modified by Masmblr 
+ui/ingame_game.menu   * modified by Masmblr 
+ui/ingame_ignore.menu   * modified by Masmblr 
+ui/ingame_leave.menu   * modified by Masmblr 
+ui/ingame_options.menu   * modified by Masmblr 
+ui/ingame_sbrowser.menu   * modified by Masmblr 
+ui/ingame_vote.menu   * modified by Masmblr 
+ui/joinserver.menu   * modified by Masmblr 
+ui/loading.menu   * modified by Masmblr 
+ui/main.menu   * modified by Masmblr 
+ui/menudef.h   * modified by Masmblr 
+ui/menus.txt   * modified by Masmblr 
+ui/options.menu   * modified by Masmblr 
+ui/password.menu   * modified by Masmblr 
+ui/say.menu   * modified by Masmblr 
+ui/serverinfo.menu   * modified by Masmblr 
+ui/teamscore.menu   * modified by Masmblr 
+ui/teamscoreb.menu   * modified by Masmblr 
+ui/tremulous.txt   * modified by Masmblr 
+ui/tremulous_alienbuild.menu   * modified by Masmblr 
+ui/tremulous_alienclass.menu   * modified by Masmblr 
+ui/tremulous_aliendialogs.menu   * modified by Masmblr 
+ui/tremulous_alienupgrade.menu   * modified by Masmblr 
+ui/tremulous_alien_builder_hud.menu   * modified by Masmblr 
+ui/tremulous_alien_common_hud.h   * modified by Masmblr 
+ui/tremulous_alien_general_hud.menu   * modified by Masmblr 
+ui/tremulous_common_hud.h   * modified by Masmblr 
+ui/tremulous_default_hud.menu   * modified by Masmblr 
+ui/tremulous_dialogs.menu   * modified by Masmblr 
+ui/tremulous_humanarmoury.menu   * modified by Masmblr 
+ui/tremulous_humanbuild.menu   * modified by Masmblr 
+ui/tremulous_humandialogs.menu   * modified by Masmblr 
+ui/tremulous_humanitem.menu   * modified by Masmblr 
+ui/tremulous_human_hud.menu   * modified by Masmblr 
+ui/tremulous_teamselect.menu   * modified by Masmblr 
+ui/assets/human/bolt.tga
+ui/assets/human/buildstat.cfg
+ui/assets/human/credits.tga
+ui/assets/human/left-arm.tga
+ui/assets/human/left-cap.tga
+ui/assets/human/right-arm.tga   * modified by Masmblr 
+ui/assets/human/right-cap-big.tga
+ui/assets/human/right-cap.tga
+ui/assets/human/ring.tga
+ui/assets/neutral/10_5pie.tga
+ui/assets/neutral/12_0pie.tga
+ui/assets/neutral/1_5pie.tga
+ui/assets/neutral/3_0pie.tga
+ui/assets/neutral/4_5pie.tga
+ui/assets/neutral/6_0pie.tga
+ui/neutral/7_5pie.tga
+ui/assets/neutral/9_0pie.tga
+ui/assets/neutral/charge_bg_h.tga
+ui/assets/neutral/charge_bg_v.tga
+ui/assets/neutral/charge_cap_h.tga
+ui/assets/neutral/charge_cap_v.tga
+ui/assets/neutral/circle.tga
+ui/assets/neutral/colon.tga
+ui/assets/neutral/cross.tga
+ui/assets/neutral/cross2.tga
+ui/assets/neutral/cross3.tga
+ui/assets/neutral/cross_medkit.tga
+ui/assets/neutral/cross_poison.tga
+ui/assets/neutral/fps.tga
+ui/assets/neutral/selected.tga
+ui/assets/neutral/use.tga
+ui/assets/alien/bolt.tga
+ui/assets/alien/buildstat.cfg
+ui/assets/alien/circle.tga
+ui/assets/alien/left-arm.tga
+ui/assets/alien/left-ring.tga
+ui/assets/alien/left-spikes.tga
+ui/assets/alien/right-arm.tga   * modified by Masmblr 
+ui/assets/alien/right-ring.tga
+ui/assets/alien/right-spikes.tga
+ui/assets/alien/tremublob.tga
+ui/assets/human/stamina1.tga
+ui/assets/human/stamina2.tga
+ui/assets/human/stamina3.tga
+ui/assets/human/stamina4.tga
+ui/assets/human/buildstat/frame.tga
+ui/assets/human/buildstat/green.tga
+ui/assets/human/buildstat/health.tga
+ui/assets/human/buildstat/mark.tga
+ui/assets/verticalgradient.tga
+ui/assets/slider2.tga
+ui/assets/sliderbutt_1.tga
+ui/assets/teamoverlay.tga
+ui/assets/scrollbar.tga
+ui/assets/scrollbar_arrow_dwn_a.tga
+ui/assets/scrollbar_arrow_left.tga
+ui/assets/scrollbar_arrow_right.tga
+ui/assets/scrollbar_arrow_up_a.tga
+ui/assets/scrollbar_thumb.tga
+ui/assets/alien/buildstat/frame.tga
+ui/assets/alien/buildstat/green.tga
+ui/assets/alien/buildstat/health.tga
+ui/assets/alien/buildstat/mark.tga
+ui/assets/alien/buildstat/nopower.tga
+ui/assets/alien/buildstat/overlay.tga
+models/weapons/level2/flash0.wav
+models/weapons/level2/impactflesh0.wav
+models/weapons/level2/weapon.cfg
+models/weapons/level2upg/electric.wav
+models/weapons/level2upg/weapon.cfg
+models/weapons/level3/flash0.wav
+models/weapons/level3/impactflesh0.wav
+models/weapons/level3/pounce.wav
+models/weapons/level3/weapon.cfg
+models/weapons/level3upg/flash0.wav
+models/weapons/level3upg/impactflesh0.wav
+models/weapons/level3upg/missile.jpg
+models/weapons/level3upg/missile.md3
+models/weapons/level3upg/missile.wav
+models/weapons/level3upg/weapon.cfg
+models/weapons/level4/flash0.wav
+models/weapons/level4/impactflesh0.wav
+models/weapons/level4/weapon.cfg
+
+
+## Additional Assets by Matthias Peters (Masmblr) © 2013-2025
+License: CC BY-NC-SA 4.0 (see docs/copyright/LICENSE_by-nc-sa_4.0.txt)
+----
+build_project.sh
+install_edge.sh
+README.md
+VERSION
+autoexec.cfg
+configs/buildables/barrel.cfg
+configs/buildables/barrier_corner.cfg
+configs/buildables/barrier_line.cfg
+configs/buildables/barrier_point.cfg
+configs/buildables/cocoon.cfg
+configs/buildables/container_large.cfg
+configs/buildables/container_medium.cfg
+configs/buildables/container_small.cfg
+configs/buildables/cover.cfg
+configs/buildables/cover_stump.cfg
+configs/buildables/fence.cfg
+configs/buildables/fence_rod.cfg
+configs/buildables/infestation_blister.cfg
+configs/buildables/infestation_slime.cfg
+configs/buildables/infestation_thicket.cfg
+configs/buildables/ladder.cfg
+configs/buildables/light.cfg
+configs/buildables/muscle.cfg
+configs/buildables/net.cfg
+configs/buildables/net_spike.cfg
+configs/buildables/organic_bulb.cfg
+configs/buildables/panzer_large.cfg
+configs/buildables/panzer_medium.cfg
+configs/buildables/panzer_small.cfg
+configs/buildables/plate_large.cfg
+configs/buildables/plate_small.cfg
+configs/buildables/pod.cfg
+configs/buildables/pod_stump.cfg
+configs/buildables/reflector.cfg
+configs/buildables/shield.cfg
+configs/buildables/spiteful_abcess.cfg
+configs/buildables/teflon_foil.cfg
+configs/buildables/tendon_large.cfg
+configs/buildables/tendon_medium.cfg
+configs/buildables/tendon_small.cfg
+configs/classes/level5.cfg
+emoticons/shield_1x1.tga
+emoticons/xyedge_1x1.tga
+emoticons/ye2_1x1.tga
+emoticons/yeaim_1x1.tga
+emoticons/yeal_1x1.tga
+emoticons/yeammo_1x1.tga
+emoticons/yeawin_3x1.tga
+emoticons/yebat_1x1.tga
+emoticons/yebiok_1x1.tga
+emoticons/yecloa_1x1.tga
+emoticons/yec_1x1.tga
+emoticons/yedge_1x1.tga
+emoticons/yeemo_1x1.tga
+emoticons/yeequ_1x1.tga
+emoticons/yeewin_3x1.tga
+emoticons/yegg_3x1.tga
+emoticons/yehwin_3x1.tga
+emoticons/yei_1x1.tga
+emoticons/yejet_1x1.tga
+emoticons/yekey_1x1.tga
+emoticons/yemed_1x1.tga
+emoticons/yemf_1x1.tga
+emoticons/yenade_1x1.tga
+emoticons/yetool_1x1.tga
+emoticons/ye_1x1.tga
+emoticons/z_1x1.tga
+emoticons/rainbow_3x1.tga
+emoticons/arms_1x1.tga
+gfx/2d/blip.tga
+gfx/2d/blipPlayer.tga
+gfx/edge/basi_invisible_overlay.jpg
+gfx/edge/basi_invisible_overlay1.jpg
+gfx/edge/basi_invisible_overlay2.jpg
+gfx/edge/basi_invisible_overlay3.jpg
+gfx/mdriver/bluevap.tga
+gfx/mdriver/bluevap_b.tga
+gfx/misc/creep.tga
+gfx/misc/creep_add.tga
+gfx/misc/detail.jpg
+gfx/misc/impactpuff2.tga
+gfx/sprites/airpounceflash.jpg
+gfx/sprites/radial.jpg
+gfx/sprites/smoke.tga
+gfx/sprites/smokeye.tga
+gfx/invisible.jpg
+icons/advbasiinvi.tga
+icons/iconw_smoke.tga
+icons/iconu_cloak.tga
+icons/icona_lev5.tga
+models/buildables/barrel/barrel.md3
+models/buildables/barrel/model_texture_1.jpg
+models/buildables/barrel/model_texture_2.jpg
+models/buildables/barrier_corner/animation.cfg
+models/buildables/barrier_corner/barrier_corner.md3
+models/buildables/barrier_line/animation.cfg
+models/buildables/barrier_line/barrier_line.md3
+models/buildables/barrier_point/animation.cfg
+models/buildables/barrier_point/barrier_point.md3
+models/buildables/cocoon/animation.cfg
+models/buildables/cocoon/cocoon.md3
+models/buildables/container_large/animation.cfg
+models/buildables/container_large/container_large.md3
+models/buildables/container_large/container_texture.jpg
+models/buildables/container_large/container_texture_b.jpg
+models/buildables/container_medium/animation.cfg
+models/buildables/container_medium/container_medium.md3
+models/buildables/container_small/animation.cfg
+models/buildables/container_small/container_small.md3
+models/buildables/cover/animation.cfg
+models/buildables/cover/cover.md3
+models/buildables/cover_stump/animation.cfg
+models/buildables/cover_stump/cover_stump.md3
+models/buildables/mgturret2/animation.cfg
+models/buildables/mgturret2/flamer.tga
+models/buildables/mgturret2/gas.jpg
+models/buildables/mgturret2/ref_map.jpg
+models/buildables/mgturret2/turret2_kuehler.tga
+models/buildables/mgturret2/turret_barrel.md3
+models/buildables/mgturret2/turret_base.jpg
+models/buildables/mgturret2/turret_base.md3
+models/buildables/mgturret2/turret_coil.jpg
+models/buildables/mgturret2/turret_shiny.jpg
+models/buildables/mgturret2/turret_top.jpg
+models/buildables/mgturret2/turret_top.md3
+models/buildables/fence/animation.cfg
+models/buildables/fence/fence.md3
+models/buildables/fence/model_texture2.tga
+models/buildables/fence_rod/animation.cfg
+models/buildables/fence_rod/fence_rod.md3
+models/buildables/infestation_blister/animation.cfg
+models/buildables/infestation_blister/base_texture_glow.jpg
+models/buildables/infestation_blister/infestation_blister.md3
+models/buildables/infestation_blister/infestation_texture.tga
+models/buildables/infestation_slime/animation.cfg
+models/buildables/infestation_slime/infestation_slime.md3
+models/buildables/infestation_slime/slime.tga
+models/buildables/infestation_slime/slimetop.tga
+models/buildables/infestation_slime/slime_side.tga
+models/buildables/infestation_thicket/animation.cfg
+models/buildables/infestation_thicket/haut_fetzen_halb.tga
+models/buildables/infestation_thicket/infestation_thicket.md3
+models/buildables/ladder/animation.cfg
+models/buildables/ladder/arm_body_modified.jpg
+models/buildables/ladder/ladder.md3
+models/buildables/light/animation.cfg
+models/buildables/light/blue_particle.jpg
+models/buildables/light/light.md3
+models/buildables/light/model_texture.jpg
+models/buildables/light/model_texture_3.jpg
+models/buildables/muscle/animation.cfg
+models/buildables/muscle/muscle.jpg
+models/buildables/muscle/muscle.md3
+models/buildables/net/animation.cfg
+models/buildables/net/net.md3
+models/buildables/net/net.tga
+models/buildables/net_spike/animation.cfg
+models/buildables/net_spike/net_spike.md3
+models/buildables/organic_bulb/animation.cfg
+models/buildables/organic_bulb/organic_bulb.md3
+models/buildables/panzer_large/animation.cfg
+models/buildables/panzer_large/panzer_large.md3
+models/buildables/panzer_medium/animation.cfg
+models/buildables/panzer_medium/haut.tga
+models/buildables/panzer_medium/panzer_m.jpg
+models/buildables/panzer_medium/panzer_medium.md3
+models/buildables/panzer_small/animation.cfg
+models/buildables/panzer_small/panzer.jpg
+models/buildables/panzer_small/panzer_small.md3
+models/buildables/plate_large/animation.cfg
+models/buildables/plate_large/model_texture_1.jpg
+models/buildables/plate_large/plate_large.md3
+models/buildables/plate_small/animation.cfg
+models/buildables/pod/animation.cfg
+models/buildables/pod/pod.md3
+models/buildables/pod/pod.tga
+models/buildables/pod_stump/animation.cfg
+models/buildables/pod_stump/pod_side.jpg
+models/buildables/pod_stump/pod_stump.md3
+models/buildables/reflector/animation.cfg
+models/buildables/reflector/haut_fetzen_b.tga
+models/buildables/reflector/mer.jpg
+models/buildables/reflector/reflector.md3
+models/buildables/shield/animation.cfg
+models/buildables/shield/model_texture_add.jpg
+models/buildables/shield/model_texture_add_light.jpg
+models/buildables/shield/shield.md3
+models/buildables/spiteful_abcess/animation.cfg
+models/buildables/spiteful_abcess/sa_foot.jpg
+models/buildables/spiteful_abcess/sa_foot.tga
+models/buildables/spiteful_abcess/sa_organic_head.jpg
+models/buildables/spiteful_abcess/sa_organic_head_blend.jpg
+models/buildables/spiteful_abcess/spiteful_abcess.md3
+models/buildables/teflon_foil/animation.cfg
+models/buildables/teflon_foil/foil.jpg
+models/buildables/teflon_foil/teflon_foil.md3
+models/buildables/tendon_large/animation.cfg
+models/buildables/tendon_large/tendon_large.md3
+models/buildables/tendon_medium/animation.cfg
+models/buildables/tendon_medium/tendon_medium.md3
+models/buildables/tendon_small/animation.cfg
+models/buildables/tendon_small/haut_fetzen.tga
+models/buildables/tendon_small/tendon_small.md3
+models/weapons/flamer/flash.jpg
+models/weapons/level5/prickles.md3
+models/weapons/level5/prickles_tex.jpg
+models/weapons/level5/sparks.tga
+models/weapons/level5/weapon.cfg
+models/weapons/mine/mine.jpg
+models/weapons/mine/mine.md3
+models/weapons/mine/mine_blend.jpg
+models/weapons/mine/mine_spike.jpg
+models/weapons/mine/weapon.cfg
+models/weapons/prifle/flash.jpg
+models/weapons/prifle/flash0.wav
+models/weapons/prifle/impact0.wav
+models/weapons/prifle/prifle.jpg
+models/weapons/prifle/prifle.md3
+models/weapons/prifle/prifle_flash.md3
+models/weapons/prifle/prifle_hand.md3
+models/weapons/prifle/weapon.cfg
+models/weapons/psaw/blade.tga
+models/weapons/psaw/bladeadd.jpg
+models/weapons/smoke/smoke.jpg
+models/weapons/smoke/smokegfx.tga
+models/weapons/smoke/weapon.cfg
+overrides/classes/level5.cfg
+scripts/ab_infestation_blister.shader
+scripts/ab_infestation_slime.particle
+scripts/ab_infestation_slime.shader
+scripts/ab_infestation_slime.trail
+scripts/ab_infestation_thicket.shader
+scripts/ab_net.shader
+scripts/ab_organic_bulb.particle
+scripts/ab_panzer_medium.shader
+scripts/ab_pod.shader
+scripts/ab_reflector.shader
+scripts/ab_spiteful_abcess.particle
+scripts/ab_spiteful_abcess.shader
+scripts/ab_tendon_small.shader
+scripts/ab_trapper.shader
+scripts/aw_level5.particle
+scripts/aw_level5.shader
+scripts/aw_level5.trail
+scripts/hb_container_sml.shader
+scripts/hb_fence.shader
+scripts/hb_flameturret.shader
+scripts/hb_flame_turret.particle
+scripts/hb_light.particle
+scripts/hb_light.shader
+scripts/hb_refinery.shader
+scripts/hb_shield.shader
+sound/buildables/barrel/sound.cfg
+sound/buildables/barrier_corner/sound.cfg
+sound/buildables/barrier_line/sound.cfg
+sound/buildables/barrier_point/sound.cfg
+sound/buildables/cocoon/sound.cfg
+sound/buildables/container_large/sound.cfg
+sound/buildables/container_medium/sound.cfg
+sound/buildables/container_small/sound.cfg
+sound/buildables/cover/sound.cfg
+sound/buildables/cover_stump/sound.cfg
+sound/buildables/creepcolony/sound.cfg
+sound/buildables/fence/sound.cfg
+sound/buildables/fence_rod/sound.cfg
+sound/buildables/infestation_blister/sound.cfg
+sound/buildables/infestation_slime/attack1.wav
+sound/buildables/infestation_slime/sound.cfg
+sound/buildables/infestation_thicket/sound.cfg
+sound/buildables/ladder/sound.cfg
+sound/buildables/light/emp.wav
+sound/buildables/light/idle1.wav
+sound/buildables/light/sound.cfg
+sound/buildables/muscle/sound.cfg
+sound/buildables/net/sound.cfg
+sound/buildables/net_spike/sound.cfg
+sound/buildables/organic_bulb/sound.cfg
+sound/buildables/panzer_large/sound.cfg
+sound/buildables/panzer_medium/sound.cfg
+sound/buildables/panzer_small/pain1.wav
+sound/buildables/panzer_small/sound.cfg
+sound/buildables/plate_large/sound.cfg
+sound/buildables/plate_medium/sound.cfg
+sound/buildables/plate_small/sound.cfg
+sound/buildables/pod/sound.cfg
+sound/buildables/pod_stump/sound.cfg
+sound/buildables/refinery/idle1.wav
+sound/buildables/refinery/sound.cfg
+sound/buildables/reflector/sound.cfg
+models/buildables/refinery/refinery.jpg
+sound/buildables/shield/attack1.wav
+sound/buildables/shield/attack2.wav
+sound/buildables/shield/sound.cfg
+sound/buildables/spiteful_abcess/sound.cfg
+sound/buildables/teflon_foil/sound.cfg
+sound/buildables/tendon_large/sound.cfg
+sound/buildables/tendon_medium/pain1.wav
+sound/buildables/tendon_medium/sound.cfg
+sound/buildables/tendon_small/sound.cfg
+sound/misc/mine_bounce1.wav
+textures/flamer_ye/flame1.jpg
+textures/flamer_ye/flame2.jpg
+textures/flamer_ye/flame3.jpg
+textures/flamer_ye/flame4.jpg
+textures/flamer_ye/flame5.jpg
+textures/flamer_ye/flame6.jpg
+textures/flamer_ye/flame7.jpg
+textures/flamer_ye/flame8.jpg
+textures/flamer_ye/flameball.jpg
+textures/flamer_ye/trail.jpg
+textures/flamer_ye/trail.tga
+textures/slime_ye/zunge.tga
+ui/ingame_map.menu
+ui/ingame_map19201080.menu
+ui/ingame_map640480.menu
+ui/ingame_robot.menu
+ui/ingame_yehelp.menu
+ui/assets/human/scanner.tga
+ui/assets/human/buildstat/nopower.tga
+ui/assets/alien/tremfbreath.tga
+ui/assets/3_cursor3.tga
+ui/assets/alien/prickles.tga
+ui/assets/backarrow.tga
+ui/assets/e6.md3
+ui/assets/edge_logo.jpg
+ui/assets/edge_terminal.tga
+ui/assets/fadebox.tga
+ui/assets/forwardarrow.tga
+ui/assets/framebutton.tga
+ui/assets/gradientbar2.tga
+ui/assets/halfgradleft.tga
+ui/assets/halfgradright.tga
+ui/assets/load.jpg
+ui/assets/loading_add.jpg
+ui/assets/load_6.jpg
+ui/assets/main_add.jpg
+ui/assets/main_add_pulse.jpg
+ui/assets/main_base.jpg
+ui/assets/menu_main_aurora_base.jpg
+ui/assets/menu_main_aurora_base_add.jpg
+ui/assets/menu_main_aurora_base_add_b.jpg
+ui/assets/menu_main_aurora_base_add_b2.jpg
+ui/assets/menu_main_aurora_base_add_b3.jpg
+ui/assets/score_add.jpg
+ui/assets/score_base.tga
+ui/assets/score_flicker.jpg
+ui/assets/stage_add.jpg
+ui/assets/warp_splash_m.jpg
+ui/assets/yboy.jpg
+ui/assets/yboy2.jpg
+video/splash.roq
+docs/images/header_edge-mod.jpg
+misc/edge/default.cfg
+misc/edge/start_edge-client.bat
+misc/edge/start_edge-client.sh
+misc/edge/start_edge-server.sh
+misc/edge/cmds/edgeback.cfg
+misc/edge/cmds/hideme.cfg
+misc/edge/cmds/plzreg.cfg
+misc/edge/cmds/rules.cfg
+misc/edge/cmds/unhideme.cfg
+misc/edge/cmds/welcome.cfg
+misc/edge/edge/admin.dat
+misc/edge/edge/maprotation.cfg
+misc/edge/edge/server.cfg
+
+
+## Additional Assets by pikatchu, https://acidtu.be  
+License: Attribution - Credit required as "pikatchu (Acidtu.be Dev Team)"
+----
+gfx/blood/greenblood01frame01.tga
+gfx/blood/greenblood01frame02.tga
+gfx/blood/greenblood01frame03.tga
+gfx/blood/greenblood01frame04.tga
+gfx/blood/greenblood01frame05.tga
+gfx/blood/greenblood01frame06.tga
+gfx/blood/greenblood01frame07.tga
+gfx/blood/greenblood01frame08.tga
+gfx/blood/greenblood03frame01.tga
+gfx/blood/greenblood03frame02.tga
+gfx/blood/greenblood03frame03.tga
+gfx/blood/greenblood03frame04.tga
+gfx/blood/greenblood03frame05.tga
+gfx/blood/greenblood03frame06.tga
+gfx/blood/greenblood03frame07.tga
+gfx/blood/greenblood04frame01.tga
+gfx/blood/greenblood04frame02.tga
+gfx/blood/greenblood04frame03.tga
+gfx/blood/greenblood04frame04.tga
+gfx/blood/greenblood04frame05.tga
+gfx/blood/greenblood04frame06.tga
+gfx/blood/greenblood05frame01.tga
+gfx/blood/greenblood05frame02.tga
+gfx/blood/greenblood05frame03.tga
+gfx/blood/greenblood05frame04.tga
+gfx/blood/greenblood05frame05.tga
+gfx/blood/greenblood05frame06.tga
+gfx/blood/greenblood05frame07.tga
+gfx/blood/greenblood05frame08.tga
+gfx/blood/green_acid2.tga
+
+
+## Additional Assets by TremX Dev Team
+License: Attribution - Credit required as "TremX (https://sourceforge.net/projects/tremx/)"
+----
+icons/iconu_biokit.tga
+
+
+## Additional Assets by iltavuo  
+License: Attribution - Credit required as "iltavuo"
+----
+models/buildables/creepcolony/animation.cfg
+models/buildables/creep_colony/creep_colony.jpg
+models/buildables/creep_colony/creep_colony.md3
+models/buildables/refinery/animation.cfg
+models/buildables/refinery/refinery.md3
+models/weapons/acidbomb/acid.md3
+models/weapons/acidbomb/acid.tga
+models/weapons/acidbomb/acidb.jpg
+configs/buildables/refinery.cfg
+configs/buildables/creepcolony.cfg
+ui/assets/alien/trembombs.tga
+sound/misc/abomb_bounce1.wav
+sound/misc/abomb_bounce2.wav
+sound/misc/abomb_explode.wav
+
+
+## Additional Assets by Fupicat  
+License: Creative Commons 0 (see docs/copyright/LICENSE_cc0_1.0.txt)
+----
+sound/edge/hdoglove.wav   * modified by Masmblr
+Source: https://freesound.org/people/Fupicat/sounds/607207/
+
+
+## Additional Assets by pfranzen  
+License: Attribution 4.0 (see docs/copyright/LICENSE_cc-by-sa_4.0)
+----
+models/weapons/smoke/smoke.wav   * modified by Masmblr
+Source: https://freesound.org/people/pfranzen/sounds/583262/
+
+
+## Additional Assets by f4ngy  
+License: Attribution 4.0 (see docs/copyright/LICENSE_cc-by-sa_4.0)
+----
+models/weapons/psaw/firingblade.wav   * modified by Masmblr
+Source: https://freesound.org/people/f4ngy/sounds/237934/
+
+
+## Additional Assets by Artninja  
+License: Attribution 4.0 (see docs/copyright/LICENSE_cc-by-sa_4.0)
+----
+models/weapons/mine/impact0.wav   * modified by Masmblr
+Source: https://freesound.org/people/Artninja/sounds/750822/
+
+
+## Additional Assets by Metzik  
+License: Attribution NonCommercial 4.0 (see docs/copyright/LICENSE_by-nc-sa_4.0.txt)
+----
+models/weapons/mdriver/flash02nd.wav   * modified by Masmblr
+Source: https://freesound.org/people/Metzik/sounds/459782/
+
+
+## Additional Assets by LiamG_SFX  
+License: Attribution NonCommercial 4.0 (see docs/copyright/LICENSE_by-nc-sa_4.0.txt)
+----
+models/weapons/level5/airpounce.wav   * modified by Masmblr
+Source: https://freesound.org/people/LiamG_SFX/sounds/322495/ 
+
+
+## Additional Assets by Streety  
+License: Creative Commons 0 (see docs/copyright/LICENSE_cc0_1.0.txt)
+----
+models/weapons/level5/prickles_fire.wav   * modified by Masmblr
+Source: https://freesound.org/people/Streety/sounds/26349/ 
+
+
+## Additional Assets by bspiller5  
+License: Creative Commons 0 (see docs/copyright/LICENSE_cc0_1.0.txt)
+----
+models/weapons/level4/breath.wav   * modified by Masmblr
+Source: https://freesound.org/people/bspiller5/sounds/157616/
+
+
+## Additional Assets by Nkone_M  
+License: Attribution NonCommercial 3.0 (see docs/copyright/LICENSE_by-nc-sa_3.0.txt)
+----
+models/weapons/flamer/warning.wav   * modified by Masmblr 
+models/weapons/flamer/warning2.wav   * modified by Masmblr
+Source: https://freesound.org/people/Nkone_M/sounds/408722/
+
+
+## Additional Assets by DWOBoyle 
+License: Attribution 4.0 (see docs/copyright/LICENSE_cc-by-sa_4.0)
+----
+models/weapons/flamer/fireball_ye.wav   * modified by Masmblr
+Source: https://freesound.org/people/DWOBoyle/sounds/136696/ 
+
+
+## Additional Assets by newlocknew 
+License: Attribution NonCommercial 4.0 (see docs/copyright/LICENSE_by-nc-sa_4.0.txt)
+----
+models/weapons/flamer/fireball_ye.wav   * modified by Masmblr
+Source: https://freesound.org/people/newlocknew/sounds/626277/
+
+
+## Additional Assets by GregorQuendel 
+License: Attribution 4.0 (see docs/copyright/LICENSE_cc-by-sa_4.0)
+----
+models/weapons/flamer/fireimpc.wav   * modified by Masmblr
+Source: https://freesound.org/people/GregorQuendel/sounds/421881/
+
+
+## Additional Assets by kolekurt 
+License: Attribution NonCommercial 3.0 (see docs/copyright/LICENSE_by-nc-sa_3.0.txt)
+----
+models/weapons/level1/bomb.wav   * modified by Masmblr
+Source: https://freesound.org/people/kolekurt/sounds/540152/
+
+
+## Additional Assets by OnlyTheGhosts 
+License: Attribution NonCommercial 4.0 (see docs/copyright/LICENSE_by-nc-sa_4.0.txt)
+----
+sound/player/level5/taunt.wav   * modified by Masmblr
+Source: https://freesound.org/people/OnlyTheGhosts/sounds/251458/
+
+
+## Additional Assets by LilMati 
+License: Creative Commons 0 (see docs/copyright/LICENSE_cc0_1.0.txt)
+----
+sound/ye/blood_splat.wav   * modified by Masmblr
+Source: https://freesound.org/people/LilMati/sounds/486943/
+
+ 
+## Additional Assets by newlocknew 
+License: Attribution NonCommercial 4.0 (see docs/copyright/LICENSE_by-nc-sa_4.0.txt)
+----
+sound/ye/humanbaseunderatt.wav   * modified by Masmblr
+Source: https://freesound.org/people/newlocknew/sounds/568783/
+
+
+## Additional Assets by bolkmar 
+License: Creative Commons 0 (see docs/copyright/LICENSE_cc0_1.0.txt)
+----
+sound/weapons/prifle/attack2nd.wav   * modified by Masmblr
+Source: https://freesound.org/people/bolkmar/sounds/459615/
+
+
+## Additional Assets by Lew_ 
+License: Creative Commons 0 (see docs/copyright/LICENSE_cc0_1.0.txt)
+----
+sound/player/level5/pain100_1.wav  * modified by Masmblr
+sound/player/level5/pain25_1.wav  * modified by Masmblr
+sound/player/level5/pain50_1.wav  * modified by Masmblr
+sound/player/level5/pain75_1.wav  * modified by Masmblr
+Source: https://freesound.org/people/Lew_/sounds/489795/
+
+
+## Additional Assets by myrararara
+License: Attribution 3.0 (see docs/copyright/LICENSE_cc-by-sa_3.0.txt)
+----
+sound/player/level5/death1.wav   * modified by Masmblr
+sound/player/level5/death2.wav   * modified by Masmblr
+sound/player/level5/death3.wav   * modified by Masmblr
+Source: https://freesound.org/people/myrararara/sounds/412798/
+
+
+## Additional Assets by myrararara
+License: Creative Commons 0 (see docs/copyright/LICENSE_cc0_1.0.txt)
+----
+sound/player/hummel.wav   * modified by Masmblr
+Source: https://freesound.org/people/ani_music/sounds/244980/
+
+
+## Additional Assets by richwise
+License: Creative Commons 0 (see docs/copyright/LICENSE_cc0_1.0.txt)
+----
+sound/ye/votebing.wav   * modified by Masmblr
+Source: https://freesound.org/people/richwise/sounds/795707/
+
+
+## Additional Assets by huluvu42
+License: Creative Commons 0 (see docs/copyright/LICENSE_cc0_1.0.txt)
+----
+sound/ye/gib.wav   * modified by Masmblr
+Source: https://freesound.org/people/huluvu42/sounds/87571/
+
+
+## Additional Assets by RockSavage
+License: Sampling+ (https://creativecommons.org/licenses/sampling+/1.0/)
+----
+sound/ye/blood_splat_headshot.wav   * modified by Masmblr
+Source: https://freesound.org/people/Rock%20Savage/sounds/81042/
+
+
+## Additional Assets by Sam Thompson (mhoram@world-net.net)
+License: Attribution 3.0 (see docs/copyright/LICENSE_cc-by-sa_3.0.txt)
+----
+ui/assets/maporama.wav   * modified by Masmblr
+
+
+## Additional Assets by deleted_user_2814878
+License: Attribution 3.0 (see docs/copyright/LICENSE_cc-by-sa_3.0.txt)
+----
+ui/assets/off.wav   * modified by Masmblr
+Source: https://freesound.org/people/deleted_user_2814878/sounds/193676/
+
+
+## Additional Assets by Nancy_Sinclair
+License: Creative Commons 0 (see docs/copyright/LICENSE_cc0_1.0.txt)
+----
+ui/assets/edge_heartbeat.wav   * modified by Masmblr
+Source: https://freesound.org/people/Nancy_Sinclair/sounds/749481/
+
+
+## Additional Assets: Awesome Face / Epic Face / Epic Smiley
+License: Creative Commons CC0 / Public Domain (see docs/copyright/LICENSE_cc0_1.0.txt)
+----
+emoticons/angry_1x1.tga   * modified by Masmblr
+emoticons/asscry_1x1.tga   * modified by Masmblr
+emoticons/awesome2_1x1.tga   * modified by Masmblr
+emoticons/awesome_1x1.tga   * modified by Masmblr
+emoticons/awwcute_1x1.tga   * modified by Masmblr
+emoticons/awww_1x1.tga   * modified by Masmblr
+emoticons/aww_1x1.tga   * modified by Masmblr
+emoticons/bat_1x1.tga   * modified by Masmblr
+emoticons/ba_1x1.tga   * modified by Masmblr
+emoticons/bruce_1x1.tga   * modified by Masmblr
+emoticons/build_1x1.tga   * modified by Masmblr
+emoticons/chuck_1x1.tga   * modified by Masmblr
+emoticons/crack_1x1.tga   * modified by Masmblr
+emoticons/crazy_1x1.tga   * modified by Masmblr
+emoticons/creepguy_1x1.tga   * modified by Masmblr
+emoticons/cry_1x1.tga   * modified by Masmblr
+emoticons/cute_1x1.tga   * modified by Masmblr
+emoticons/cuty_1x1.tga   * modified by Masmblr
+emoticons/dafuq_1x1.tga   * modified by Masmblr
+emoticons/drug_1x1.tga   * modified by Masmblr
+emoticons/epictroll_1x1.tga   * modified by Masmblr
+emoticons/evil_1x1.tga   * modified by Masmblr
+emoticons/frown_1x1.tga   * modified by Masmblr
+emoticons/gree_1x1.tga   * modified by Masmblr
+emoticons/gs_1x1.tga   * modified by Masmblr
+emoticons/haha_1x1.tga   * modified by Masmblr
+emoticons/haha_1x1_b.tga   * modified by Masmblr
+emoticons/hdog_1x1.tga   * modified by Masmblr
+emoticons/hello_1x1.tga   * modified by Masmblr
+emoticons/hip_1x1.tga   * modified by Masmblr
+emoticons/hmm_1x1.tga   * modified by Masmblr
+emoticons/insane_1x1.tga   * modified by Masmblr
+emoticons/jack_1x1.tga   * modified by Masmblr
+emoticons/joker_1x1.tga   * modified by Masmblr
+emoticons/joy_1x1.tga   * modified by Masmblr
+emoticons/kid_1x1.tga   * modified by Masmblr
+emoticons/lag_1x1.tga   * modified by Masmblr
+emoticons/lal_1x1.tga   * modified by Masmblr
+emoticons/lawl_1x1.tga   * modified by Masmblr
+emoticons/lessretard_1x1.tga   * modified by Masmblr
+emoticons/madbro_1x1.tga   * modified by Masmblr
+emoticons/madbro_1x1_b.tga   * modified by Masmblr
+emoticons/madd_1x1.tga   * modified by Masmblr
+emoticons/mad_1x1.tga   * modified by Masmblr
+emoticons/megusta_1x1.tga   * modified by Masmblr
+emoticons/mindfuck_1x1.tga   * modified by Masmblr
+emoticons/mouth_1x1.tga   * modified by Masmblr
+emoticons/mp_1x1.tga   * modified by Masmblr
+emoticons/mp_1x1_b.tga   * modified by Masmblr
+emoticons/mustage_1x1.tga   * modified by Masmblr
+emoticons/nerd_1x1.tga   * modified by Masmblr
+emoticons/nether_1x1.tga   * modified by Masmblr
+emoticons/ninja_1x1.tga   * modified by Masmblr
+emoticons/ohh_1x1.tga   * modified by Masmblr
+emoticons/ohshit_1x1.tga   * modified by Masmblr
+emoticons/omg_1x1.tga   * modified by Masmblr
+emoticons/rage_1x1.tga   * modified by Masmblr
+emoticons/retarded_1x1.tga   * modified by Masmblr
+emoticons/retard_1x1.tga   * modified by Masmblr
+emoticons/sad_1x1.tga   * modified by Masmblr
+emoticons/sarca_1x1.tga   * modified by Masmblr
+emoticons/scept_1x1.tga   * modified by Masmblr
+emoticons/serious_1x1.tga   * modified by Masmblr
+emoticons/shock_1x1.tga   * modified by Masmblr
+emoticons/singa_1x1.tga   * modified by Masmblr
+emoticons/sloven_1x1.tga   * modified by Masmblr
+emoticons/slo_1x1.tga   * modified by Masmblr
+emoticons/smile_1x1.tga   * modified by Masmblr
+emoticons/snake_1x1.tga   * modified by Masmblr
+emoticons/sniper_1x1.tga   * modified by Masmblr
+emoticons/spok_1x1.tga   * modified by Masmblr
+emoticons/star_1x1.tga   * modified by Masmblr
+emoticons/stoned_1x1.tga   * modified by Masmblr
+emoticons/stupid_1x1.tga   * modified by Masmblr
+emoticons/tard_1x1.tga   * modified by Masmblr
+emoticons/tong_1x1.tga   * modified by Masmblr
+emoticons/troll_1x1.tga   * modified by Masmblr
+emoticons/trylol_1x1.tga   * modified by Masmblr
+emoticons/ugauga_1x1.tga   * modified by Masmblr
+emoticons/upset_1x1.tga   * modified by Masmblr
+emoticons/vamp_1x1.tga   * modified by Masmblr
+emoticons/weirdo_1x1.tga   * modified by Masmblr
+emoticons/well_1x1.tga   * modified by Masmblr
+emoticons/what_1x1.tga   * modified by Masmblr
+emoticons/whine_1x1.tga   * modified by Masmblr
+emoticons/wsmile_1x1.tga   * modified by Masmblr
