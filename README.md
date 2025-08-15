@@ -52,23 +52,21 @@ chmod +x *.sh
 Run the installation script:
 ```bash
 ./install.sh
+
+# Installs the following dependencies:
+# build-essential cmake git libsdl2-dev libopenal-dev libjpeg-dev libvorbis-dev zlib1g-dev libglew-dev libcurl4-openssl-dev libpng-dev libspeex-dev libogg-dev bison zip libsdl1.2-dev libsdl1.2debian lib32z1 lib32stdc++6
+# Extracts and prepares the Tremulous-ZIP files
+# Calls `build_project.sh` to compile the project
+# Merges all files into a final structure under `~/Downloads/tremulous`
 ```
-What `install.sh` does:
-- Installs the following dependencies:
-```bash
-build-essential cmake git libsdl2-dev libopenal-dev libjpeg-dev libvorbis-dev zlib1g-dev libglew-dev libcurl4-openssl-dev libpng-dev libspeex-dev libogg-dev bison zip libsdl1.2-dev libsdl1.2debian lib32z1 lib32stdc++6
-```
-- Extracts and prepares the Tremulous-ZIP files
-- Calls `build_project.sh` to compile the project
-- Merges all files into a final structure under `~/Downloads/tremulous`
 
 ##### 3. Run Client or Server
 To run the client via these scripts which are located in the tremulous folder:
 ```bash
+# Run client:
 ./start_edge-client.sh
-```
-To run the server:
-```bash
+
+# Run Server:
 ./start_edge-server.sh
 ```
 
@@ -89,6 +87,8 @@ Launch the client by running start_edge-client.bat, which is located in the trem
 If you want to compile later without reinstalling:
 ```bash
 ./build_project.sh
+
+# Binary will be at edge-mod/build/tremulous
 ```
 
 Files will be stored in edge-mod/build/*
