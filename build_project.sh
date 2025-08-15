@@ -34,4 +34,3 @@ rsync -av misc/edge/ "$OUTDIR/Tremulous/"
 rm -r "$TMP"
 rm -rf "$OUTDIR"/release-*
 echo -e "\e[0;36m -----------------------------------------------------------------------------------"
-echo "Done!"

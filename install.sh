@@ -25,4 +25,4 @@ echo -e "\e[0;36m Copying.."
 cp -r build/Tremulous/* ../tremulous/
 chmod -R +x ../tremulous
 
-echo -e "\e[0;36m Done."
+echo -e "\e[0;36m Edge successfully installed."
