@@ -1,0 +1,140 @@
+[level]
+level   = 11
+name    = ^1Server Owner
+flags   = CALLVOTEALLOW ALLFLAGS IMMUTABLE INCOGNITO ubp astage3 astage2 hstage3 hstage2
+
+[level]
+level   = 10
+name    = ^1Edge Lead Admin
+flags   = CALLVOTEALLOW ACTIVE ADMINCHAT IMMUNITY NAKEDPLAYER NOCENSORFLOOD NOVOTELIMIT SPECALLCHAT warn adjustban adminhelp admintest allowbuild allready ban builder buildlog cancelvote cpa denybuild kick listadmins listlayouts listmaps listplayers lock longstrip mute nextmap passvote putteam rename restart revert showbans spec999 strip time unban unlock unmute setlevel astage2 astage3 hstage2 hstage3 slap welcome edgeback rules plzreg namelog l0 l1 hideme unhideme
+
+[level]
+level   = 9
+name    = ^1Edge Senior Admin
+flags   = CALLVOTEALLOW ACTIVE ADMINCHAT IMMUNITY NAKEDPLAYER NOCENSORFLOOD NOVOTELIMIT SPECALLCHAT warn adjustban adminhelp admintest allowbuild allready ban builder buildlog cancelvote cpa denybuild kick listadmins listlayouts listmaps listplayers lock longstrip mute nextmap passvote putteam rename restart revert showbans spec999 strip time unban unlock unmute setlevel astage2 astage3 hstage2 hstage3 slap welcome edgeback rules plzreg namelog l0 l1
+
+[level]
+level   = 8
+name    = ^1Edge Rookie Admin
+flags   = CALLVOTEALLOW ACTIVE ADMINCHAT IMMUNITY NAKEDPLAYER NOCENSORFLOOD NOVOTELIMIT SPECALLCHAT warn adjustban adminhelp admintest allowbuild allready builder buildlog cancelvote denybuild kick listadmins listlayouts listmaps listplayers longstrip mute putteam rename revert showbans spec999 strip time unban unmute
+
+[level]
+level   = 7
+name    = ^3VIP Player
+flags   = CALLVOTEALLOW ACTIVE ADMINCHAT IMMUNITY NAKEDPLAYER NOCENSORFLOOD NOVOTELIMIT SPECALLCHAT warn adjustban adminhelp admintest builder buildlog cancelvote cpa denybuild kick listadmins listlayouts listmaps listplayers lock longstrip mute nextmap passvote putteam rename restart revert showbans spec999 strip time unban unlock unmute setlevel astage2 astage3 hstage2 hstage3 slap welcome edgeback rules plzreg namelog l0 l1
+
+[level]
+level   = 6
+name    = ^6Edge Player
+flags   = CALLVOTEALLOW IMMUNITY NAKEDPLAYER SPECALLCHAT cancelvote adminhelp admintest builder buildlog listmaps listplayers unmute time showbans spec999 allowbuild
+
+[level]
+level   = 5
+name    = ^2Good Player
+flags   = CALLVOTEALLOW IMMUNITY NAKEDPLAYER SPECALLCHAT adminhelp admintest builder buildlog listmaps listplayers unmute time showbans spec999 allowbuild
+
+[level]
+level   = 4
+name    = ^2Experienced Player
+flags   = CALLVOTEALLOW adminhelp admintest builder buildlog listmaps listplayers time showbans spec999
+
+[level]
+level   = 3
+name    = ^5Regular Player
+flags   = CALLVOTEALLOW adminhelp admintest builder listmaps listplayers time showbans spec999
+
+[level]
+level   = 2
+name    = ^5Stable Player
+flags   = CALLVOTEALLOW adminhelp admintest builder listmaps listplayers time spec999
+
+[level]
+level   = 1
+name    = ^5Registered Player
+flags   = adminhelp admintest listmaps listplayers time
+
+[level]
+level   = 0
+name    = ^7Unregistered Player
+flags   = register admintest adminhelp register
+
+[level]
+level   = -1
+name    = ^0Camper
+flags   = admintest time adminhelp
+
+[level]
+level   = -2
+name    = ^0Troll
+flags   = admintest adminhelp
+
+[level]
+level   = -3
+name    = ^0Flamer
+flags   = admintest adminhelp
+
+[command]
+command = ubp
+exec    = g_alienbuildpoints 9999 g_humanbuildpoints 9999 !cp Unlimited!
+desc    = Sets human and alien build points to unlimited
+flag    = ubp
+
+[command]
+command = astage2
+exec    = g_alienstage 1 !cp Instand Stage 2!
+desc    = Sets human and alien -stage to 2
+flag    = astage2
+
+[command]
+command = astage3
+exec    = g_alienstage 2 g_humanstage 2 !cp Instand Stage 3!
+desc    = Sets human and alien -stage to 3
+flag    = astage3
+
+[command]
+command = hstage2
+exec    = g_humanstage 1 !cp Instand Stage 2!
+desc    = Sets human and alien -stage to 2
+flag    = hstage2
+
+[command]
+command = hstage3
+exec    = g_humanstage 2 !cp Instand Stage 3!
+desc    = Sets human and alien -stage to 3
+flag    = hstage3
+
+[command]
+command = welcome
+exec    = exec cmds/welcome.cfg
+desc    = Shows welcome message to all
+flag    = welcome
+
+[command]
+command = plzreg
+exec    = exec cmds/plzreg.cfg
+desc    = Asks players to register (cpa-style)
+flag    = plzreg
+
+[command]
+command = rules
+exec    = exec cmds/rules.cfg
+desc    = Shows rules (cpa-style)
+flag    = rules
+
+[command]
+command = edgeback
+exec    = exec cmds/edgeback.cfg
+desc    = Who want some?
+flag    = rules
+
+[command]
+command = hideme
+exec    = exec cmds/hideme.cfg
+desc    = Incognito on
+flag    = hideme
+
+[command]
+command = unhideme
+exec    = exec cmds/unhideme.cfg
+desc    = Incognito off
+flag    = hideme
