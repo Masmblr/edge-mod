@@ -29,7 +29,6 @@ Their structures support them by enabling faster healing while dramatically alte
 The name EDGE was chosen because the mod and its community were very small, existing only on the fringe - at the EDGE of the gaming landscape.
 
 ## Installation
-This project is built for **Linux Ubuntu 64-bit**. A precompiled version is available for **Windows**.
 
 ### Auto Install
 #### _Linux (Ubuntu 64-bit)_
@@ -57,7 +56,7 @@ Run the installation script:
 # build-essential cmake git libsdl2-dev libopenal-dev libjpeg-dev libvorbis-dev zlib1g-dev libglew-dev libcurl4-openssl-dev libpng-dev libspeex-dev libogg-dev bison zip libsdl1.2-dev libsdl1.2debian lib32z1 lib32stdc++6
 # Extracts and prepares the Tremulous-ZIP files
 # Calls `build_project.sh` to compile the project
-# Merges all files into a final structure under `~/Downloads/tremulous`
+# Merges all files into a final structure under `~/Downloads/Tremulous`
 ```
 
 ##### 3. Run Client or Server
@@ -88,7 +87,7 @@ If you want to compile later without reinstalling:
 ```bash
 ./build_project.sh
 
-# Binary will be at edge-mod/build/tremulous
+# Binary will be at ./edge-mod/build/Tremulous
 ```
 
 Files will be stored in edge-mod/build/*
