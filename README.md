@@ -28,6 +28,29 @@ Aliens, on the other hand, are primitive. They don't build with metal or stone -
 Their structures support them by enabling faster healing while dramatically altering the environment to create a camouflage effect that can be disorienting for humans. Everything hinted at in the base game was maximized with EDGE.
 The name EDGE was chosen because the mod and its community were very small, existing only on the fringe - at the EDGE of the gaming landscape.
 
+### Screenshots
+<p align="center">
+  <img src="docs/screenshots/scrn_1.jpg" width="150">
+  <img src="docs/screenshots/scrn_2.jpg" width="150">
+  <img src="docs/screenshots/scrn_3.jpg" width="150">
+  <img src="docs/screenshots/scrn_4.jpg" width="150">
+  <img src="docs/screenshots/scrn_5.jpg" width="150">
+</p>
+<p align="center">
+  <img src="docs/screenshots/scrn_6.jpg" width="150">
+  <img src="docs/screenshots/scrn_7.jpg" width="150">
+  <img src="docs/screenshots/scrn_8.jpg" width="150">
+  <img src="docs/screenshots/scrn_9.jpg" width="150">
+  <img src="docs/screenshots/scrn_10.jpg" width="150">
+</p>
+<p align="center">
+  <img src="docs/screenshots/scrn_11.jpg" width="150">
+  <img src="docs/screenshots/scrn_12.jpg" width="150">
+  <img src="docs/screenshots/scrn_13.jpg" width="150">
+  <img src="docs/screenshots/scrn_14.jpg" width="150">
+  <img src="docs/screenshots/scrn_15.jpg" width="150">
+</p>
+
 ## Installation
 
 ### Auto Install
