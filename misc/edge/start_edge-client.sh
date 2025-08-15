@@ -1,3 +1,4 @@
-@echo off
-cd /d "%~dp0"
-start "" "tremulous-gpp.exe" +set fs_game "edge"
+#!/bin/bash
+EXECUTABLE="./tremulous-gpp.x86_64"
+PARAMS='+set fs_game "edge"'
+$EXECUTABLE $PARAMS
