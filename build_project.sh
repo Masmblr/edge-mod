@@ -9,7 +9,7 @@ MODDIR="$OUTDIR/Tremulous/edge"
 VERSION=$(<version)
 
 echo -e "\e[0;36m -----------------------------------------------------------------------------------"
-echo "Edge Modification $VERSION"
+echo "EDGE Modification $VERSION"
 echo "-----------------------------------------------------------------------------------"
 echo -e "\e[0;36m Cleanup.."
 rm -rf "$OUTDIR"
