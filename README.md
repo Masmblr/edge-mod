@@ -7,7 +7,6 @@
   - [Auto Install](#auto-install)
   - [Manual Build](#manual-build)
 - [Features](#features)
-  - [Gameplay](#gameplay)
   - [Human Faction](#human-faction)
     - [Buildings](#human-buildings)
     - [Weapons](#human-weapons)
@@ -105,7 +104,8 @@ To run the client via these scripts which are located in the tremulous folder:
 ##### 2. Start
 Launch the client by running start_edge-client.bat, which is located in the tremulous folder.
 
-### Manual Build _(Ubuntu 64-bit)_
+### Manual Build 
+_(Ubuntu 64-bit)_
 If you want to compile later without reinstalling:
 ```bash
 ./build_project.sh
@@ -136,7 +136,10 @@ Files will be stored in edge-mod/build/*
 - **Console commands** - New commands added with theme-integrated styling
 - **Code improvements** - Additional modifications, fixes, refactoring, cleanup and optimizations
 
-## Human Buildings
+
+## Human Faction
+
+### Human Buildings
 <img src="docs/images/human_build_header.jpg" alt="Human-Header" width="1800">
 
 | Name | BP | Stage | Health | Dmg | Build Limit | Requires Energy? | Ability / Notes |
@@ -161,7 +164,7 @@ Files will be stored in edge-mod/build/*
 | Cover | 20 | 3 | 850 | – | ~ | No | Cover, used on top of a stump to form a dome-like structure. <img src="docs/images/hb_cover.gif?raw=true" alt="Cover" width="300"> <img src="docs/images/hb_cover_inside.jpg" alt="Cover Inside" width="300"> |
 | Refinery | 5 | 2 | 350 | – | ~ | Yes | Provides extra build points; cannot be stacked in the same area. <img src="docs/images/hb_refinery.gif?raw=true" alt="Refinery" width="300"> |
 
-## Human Weapons
+### Human Weapons
 
 | Name | Price | Stage | Clips | Ammo | Dmg | Ability / Notes |
 |------|:-----:|:-----:|:-----:|:----:|:------:|-----------------|
@@ -172,7 +175,7 @@ Files will be stored in edge-mod/build/*
 | Adv. Flamethrower | 550 | 2 | 1 | 150 (Gas) | 20 | Primary: flamethrower; Secondary: charged napalm shot, spawns fires <img src="docs/images/hw_adv-flamer-action.gif?raw=true" alt="Advanced Flamethrower" width="300"> |
 | Adv. Massdriver | 350 | 1 | 4 | 3 (+2) | 40, 80 | Primary: mass shot; Secondary: plasma-homing projectile; with battery: +2 shots </br> <img src="docs/images/hw_adv-mass-action.gif?raw=true" alt="Advanced Massdriver" width="300"> |
 
-## Human Equipment
+### Human Equipment
 
 | Name | Price | Stage | Damage | Stamina-rate | Healrate | Ability / Notes |
 |------|:-----:|:-----:|:------:|:------------:|:--------:|-----------------|
@@ -182,7 +185,9 @@ Files will be stored in edge-mod/build/*
 | Smoke Grenade <img src="docs/images/he_smoke.png" alt="Smoke Icon" width="40" align="middle"> | 250 | 1 | 1 | – | – | Emits a smoke particle system for ~15s - 20s <img src="docs/images/he_smoke-action.gif?raw=true" alt="Smoke Grenade Action" width="300" align="middle"> |
 | Adv. Grenade | 200 | 2 | 250 | – | – | Emits smoke and flames using improved particle system <img src="docs/images/he_nade-action.gif?raw=true" alt="Advanced Grenade" width="300" align="middle"> |
 
-## Alien Buildings
+## Alien Faction
+
+### Alien Buildings
 <img src="docs/images/alien_build_header.jpg" alt="Alien-Header" width="1800">
 
 | Name | BP | Stage | Health | Dmg | Buildlimit | Need Creep? | Ability / Notes |
@@ -208,7 +213,7 @@ Files will be stored in edge-mod/build/*
 | Pod Stump | – | 3 | – | – | ~ | No | Support structure to carry a Pod <img src="docs/images/ab_pod-stump.jpg" alt="Pod Stump" width="300"> |
 | Creep Colony | 15 | 2 | 650 | – | ~ | Yes | Grants extra build points (BP), not stackable within range <img src="docs/images/ab_creep-colony.gif?raw=true" alt="Creep Colony" width="300"> |
 
-## Alien Classes
+### Alien Classes
 
 | Name | Evo Cost | Stage | Health | Ammo | Dmg | Ability / Notes |
 |------|:--------:|:-----:|:------:|:----:|:------:|-----------------|
